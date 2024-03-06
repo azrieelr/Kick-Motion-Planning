@@ -1,0 +1,11 @@
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/src/akushon/action.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:[m[K In constructor ‘[01m[Kakushon::Action::Action(const string&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:71:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kakushon::Action::is_start[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   71 |   bool [01;35m[Kis_start[m[K;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:70:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint akushon::Action::start_stop_time[m[K’ [[01;35m[K-Wreorder[m[K]
+   70 |   int [01;35m[Kstart_stop_time[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/src/akushon/action.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   31 | [01;35m[KAction[m[K::Action(const std::string & action_name)
+      | [01;35m[K^~~~~~[m[K

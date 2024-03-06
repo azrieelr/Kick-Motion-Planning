@@ -1,0 +1,40 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "ROBOTIS OP2 robot."
+    "The ROBOTIS OP2 robot simulation model can be programmed using the ROBOTIS OP2 motions files and the ROBOTIS OP2 walk control library."
+  ]
+  title "ROBOTIS OP2"
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.057369426598073286 -0.025125231045308706 0.9980368087684581 4.2597694112885245
+  position -2.772871722160625 2.5495404825729597 0.7506061793688168
+  follow "ROBOTIS OP2"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobocupTexturedSoccerBall {
+  translation -3.26 0 0.07
+  rotation 0 1 0 1.8326
+  name "robocup soccer ball(1)"
+}
+RobotisOp2 {
+  translation 0.260576 -0.10213 0.236
+  rotation 0 1 0 0.09
+  controller "walk"
+  selfCollision TRUE
+}
+UMARU {
+  translation 3.03971 -0.123621 0.53
+  controller "motion_player"
+}
+RobotstadiumSoccerField {
+}
+UMARU {
+  translation -3.05 0.11 0.53
+  rotation 2.346409999993541e-06 1.125079999996903e-14 0.9999999999972473 3.14159
+  controller "motion_player"
+}

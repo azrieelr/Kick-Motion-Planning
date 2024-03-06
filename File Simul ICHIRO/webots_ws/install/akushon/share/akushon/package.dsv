@@ -1,0 +1,11 @@
+source;share/akushon/hook/cmake_prefix_path.ps1
+source;share/akushon/hook/cmake_prefix_path.dsv
+source;share/akushon/hook/cmake_prefix_path.sh
+source;share/akushon/hook/ld_library_path_lib.ps1
+source;share/akushon/hook/ld_library_path_lib.dsv
+source;share/akushon/hook/ld_library_path_lib.sh
+source;share/akushon/local_setup.bash
+source;share/akushon/local_setup.dsv
+source;share/akushon/local_setup.ps1
+source;share/akushon/local_setup.sh
+source;share/akushon/local_setup.zsh

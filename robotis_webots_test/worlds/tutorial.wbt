@@ -1,0 +1,207 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2236146164807069 -0.2872144782142781 -0.9313991339915914 4.890674674397223
+  position -0.26386454792175984 -1.748247773651403 1.0963713027562096
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.02
+  floorSize 2 2
+}
+Robot {
+  translation -0.379946 0.125012 0.02
+  children [
+    DistanceSensor {
+      translation 0.1 0.03 0
+      rotation 0 0 1 0.15
+      children [
+        DEF sensor Shape {
+          geometry Box {
+            size 0.01 0.005 0.005
+          }
+        }
+      ]
+      name "sensor1"
+    }
+    DistanceSensor {
+      translation 0.1 -0.03 0
+      rotation 0 0 1 -0.15
+      children [
+        USE sensor
+      ]
+      name "sensor2"
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05 0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          DEF wheel Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "wheel1"
+        boundingObject USE wheel
+        physics DEF wheel_ph Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05 -0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        name "wheel2"
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        name "wheel3"
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 -0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        name "wheel4"
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    DEF body Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  controller "costum_robot_controller"
+}
+E-puck {
+  translation 0.196537 -0.0569042 -0.01
+  controller "python_epuck"
+}
+Solid {
+  translation -3.47791e-08 -5.18235e-08 0.2
+  rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+  children [
+    DEF dumbell Group {
+      children [
+        Transform {
+          translation 0 0 -0.06
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Sphere {
+                radius 0.03
+                subdivision 2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation 0 0 0.06
+          children [
+            Shape {
+              appearance PBRAppearance {
+                roughness 1
+                metalness 0
+              }
+              geometry Sphere {
+                radius 0.03
+                subdivision 2
+              }
+            }
+          ]
+        }
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  boundingObject USE dumbell
+  physics Physics {
+    centerOfMass [
+      0 0 0
+    ]
+  }
+}
+four_wheel {
+  translation -0.364214 -0.291689 0.02
+}

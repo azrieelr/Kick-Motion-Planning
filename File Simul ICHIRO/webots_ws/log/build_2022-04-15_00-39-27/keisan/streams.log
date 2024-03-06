@@ -1,0 +1,118 @@
+[0.078s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/keisan -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan
+[0.579s] -- The C compiler identification is GNU 9.4.0
+[1.119s] -- The CXX compiler identification is GNU 9.4.0
+[1.167s] -- Check for working C compiler: /usr/bin/cc
+[1.685s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.687s] -- Detecting C compiler ABI info
+[2.248s] -- Detecting C compiler ABI info - done
+[2.421s] -- Detecting C compile features
+[2.422s] -- Detecting C compile features - done
+[2.430s] -- Check for working CXX compiler: /usr/bin/c++
+[2.868s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.868s] -- Detecting CXX compiler ABI info
+[3.350s] -- Detecting CXX compiler ABI info - done
+[3.466s] -- Detecting CXX compile features
+[3.481s] -- Detecting CXX compile features - done
+[3.481s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.752s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.753s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.502s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.507s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.510s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.531s] -- Looking for pthread.h
+[5.924s] -- Looking for pthread.h - found
+[5.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.375s] -- Check if compiler accepts -pthread
+[6.957s] -- Check if compiler accepts -pthread - yes
+[6.959s] -- Found Threads: TRUE  
+[7.587s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.643s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.644s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/keisan/include>
+[7.644s] -- Configured cppcheck exclude dirs and/or files: 
+[7.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.671s] -- Configured cpplint exclude dirs and/or files: 
+[7.691s] -- Added test 'lint_cmake' to check CMake code style
+[7.703s] -- Added test 'uncrustify' to check C / C++ code style
+[7.703s] -- Configured uncrustify additional arguments: 
+[7.703s] -- Added test 'xmllint' to check XML markup files
+[7.716s] -- Configuring done
+[7.793s] -- Generating done
+[7.796s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan
+[7.824s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/keisan -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan
+[7.826s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan -- -j4 -l4
+[8.198s] [35m[1mScanning dependencies of target gtest[0m
+[8.337s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[31.779s] [ 10%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.100s] [ 10%] Built target gtest
+[32.183s] [35m[1mScanning dependencies of target gtest_main[0m
+[32.324s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[39.312s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[39.478s] [ 21%] Built target gtest_main
+[39.522s] [35m[1mScanning dependencies of target keisan[0m
+[39.616s] [ 26%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/angle/angle.cpp.o[0m
+[43.004s] [ 31%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/constant.cpp.o[0m
+[43.941s] [ 36%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/geometry/point_3.cpp.o[0m
+[50.733s] [ 42%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/geometry/point_2.cpp.o[0m
+[58.096s] [ 47%] [32m[1mLinking CXX shared library libkeisan.so[0m
+[58.583s] [ 47%] Built target keisan
+[58.620s] [35m[1mScanning dependencies of target keisan_tests[0m
+[58.788s] [ 52%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/angle_test.cpp.o[0m
+[68.459s] [ 57%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/geometry/point_2_test.cpp.o[0m
+[76.281s] [ 63%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/geometry/point_3_test.cpp.o[0m
+[84.424s] [ 68%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/matrix/matrix_test.cpp.o[0m
+[92.483s] [ 73%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/matrix/vector_test.cpp.o[0m
+[100.258s] [ 78%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/constant_test.cpp.o[0m
+[106.438s] [ 84%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/number_test.cpp.o[0m
+[111.183s] [ 89%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/quaternion_test.cpp.o[0m
+[115.781s] [ 94%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/euler_test.cpp.o[0m
+[120.670s] [100%] [32m[1mLinking CXX executable keisan_tests[0m
+[121.245s] [100%] Built target keisan_tests
+[121.297s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan -- -j4 -l4
+[121.677s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan
+[121.696s] -- Install configuration: ""
+[121.696s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include
+[121.698s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan
+[121.698s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/number.impl.hpp
+[121.699s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/geometry
+[121.700s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/geometry/point_2.hpp
+[121.704s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/geometry/point_3.hpp
+[121.705s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix
+[121.706s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix/matrix.impl.hpp
+[121.707s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix/vector.hpp
+[121.707s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix/vector.impl.hpp
+[121.708s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix/matrix.hpp
+[121.709s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/keisan.hpp
+[121.711s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle
+[121.712s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/quaternion.hpp
+[121.712s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/angle.impl.hpp
+[121.712s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/quaternion.impl.hpp
+[121.713s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/euler.impl.hpp
+[121.713s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/euler.hpp
+[121.731s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle/angle.hpp
+[121.731s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/constant.hpp
+[121.732s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/matrix.hpp
+[121.733s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/angle.hpp
+[121.734s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/./include/keisan/number.hpp
+[121.734s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib/libkeisan.so
+[121.734s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/library_path.sh
+[121.734s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/library_path.dsv
+[121.734s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/ament_index/resource_index/package_run_dependencies/keisan
+[121.735s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/ament_index/resource_index/parent_prefix_path/keisan
+[121.735s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/ament_prefix_path.sh
+[121.735s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/ament_prefix_path.dsv
+[121.735s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/path.sh
+[121.735s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/environment/path.dsv
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/local_setup.bash
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/local_setup.sh
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/local_setup.zsh
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/local_setup.dsv
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/package.dsv
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/ament_index/resource_index/packages/keisan
+[121.736s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake/ament_cmake_export_dependencies-extras.cmake
+[121.737s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake/ament_cmake_export_include_directories-extras.cmake
+[121.737s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake/ament_cmake_export_libraries-extras.cmake
+[121.737s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake/keisanConfig.cmake
+[121.740s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake/keisanConfig-version.cmake
+[121.740s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/package.xml
+[121.740s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/keisan

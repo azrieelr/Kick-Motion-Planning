@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tachimawari_interfaces/srv/SetJoints.srv
+// generated code does not contain a copyright notice
+
+#include "tachimawari_interfaces/msg/Joint.idl"
+
+module tachimawari_interfaces {
+  module srv {
+    struct SetJoints_Request {
+      sequence<tachimawari_interfaces::msg::Joint> joints;
+    };
+    struct SetJoints_Response {
+      int8 status;
+    };
+  };
+};

@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- Found robocup_client: 0.1.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tachimawari: 0.1.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon
+[35m[1mScanning dependencies of target akushon[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/akushon.dir/src/akushon/pose.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/akushon.dir/src/akushon/action_manager.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/akushon.dir/src/akushon/action.cpp.o[0m
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/src/akushon/action.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:[m[K In constructor ‘[01m[Kakushon::Action::Action(const string&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:71:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kakushon::Action::is_start[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   71 |   bool [01;35m[Kis_start[m[K;
+      |        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/include/akushon/action.hpp:70:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint akushon::Action::start_stop_time[m[K’ [[01;35m[K-Wreorder[m[K]
+   70 |   int [01;35m[Kstart_stop_time[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/akushon/src/akushon/action.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   31 | [01;35m[KAction[m[K::Action(const std::string & action_name)
+      | [01;35m[K^~~~~~[m[K
+[ 66%] [32m[1mLinking CXX shared library libakushon.so[0m
+[ 66%] Built target akushon
+[35m[1mScanning dependencies of target action_manager[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/action_manager.dir/src/action_manager_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable action_manager[0m
+[100%] Built target action_manager
+-- Install configuration: ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/action.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/pose.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/action_manager.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/libakushon.so
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/libakushon.so" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/akushon/action_manager
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/akushon/action_manager" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/library_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/library_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/package_run_dependencies/akushon
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/parent_prefix_path/akushon
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/ament_prefix_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/ament_prefix_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.bash
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.zsh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/package.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/packages/akushon
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/akushonConfig.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/akushonConfig-version.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/package.xml

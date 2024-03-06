@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/matrix.h
+math/vector.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/math/vector.h
+math/point.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/plane.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/vector.h
+math/point.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/include/math/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/matrix.cpp
+cmath
+-
+math/matrix.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/math/matrix.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/plane.cpp
+math/plane.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/math/plane.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/point.cpp
+cmath
+-
+math/point.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/vector.cpp
+cmath
+-
+math/vector.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math/src/math/vector.h
+

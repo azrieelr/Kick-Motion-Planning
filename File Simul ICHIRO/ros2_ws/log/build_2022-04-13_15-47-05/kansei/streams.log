@@ -1,0 +1,223 @@
+[0.017s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/kansei': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.165s] -- The CXX compiler identification is GNU 9.4.0
+[0.169s] -- Check for working C compiler: /usr/bin/cc
+[0.258s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.259s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.470s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Detecting CXX compile features
+[0.586s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.615s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.615s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.967s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.013s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.098s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.127s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.332s] -- Found kansei_interfaces: 0.0.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/share/kansei_interfaces/cmake)
+[1.347s] -- Found keisan: 0.3.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake)
+[1.352s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.418s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.421s] -- Looking for pthread.h
+[1.518s] -- Looking for pthread.h - found
+[1.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.624s] -- Looking for pthread_create in pthreads
+[1.696s] -- Looking for pthread_create in pthreads - not found
+[1.696s] -- Looking for pthread_create in pthread
+[1.790s] -- Looking for pthread_create in pthread - found
+[1.790s] -- Found Threads: TRUE  
+[1.997s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.013s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.031s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.032s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.649s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.652s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.654s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.658s] -- Check if compiler accepts -pthread
+[2.755s] -- Check if compiler accepts -pthread - yes
+[2.872s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.879s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include>
+[2.879s] -- Configured cppcheck exclude dirs and/or files: 
+[2.884s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.885s] -- Configured cpplint exclude dirs and/or files: 
+[2.887s] -- Added test 'lint_cmake' to check CMake code style
+[2.894s] -- Added test 'uncrustify' to check C / C++ code style
+[2.894s] -- Configured uncrustify additional arguments: 
+[2.895s] -- Added test 'xmllint' to check XML markup files
+[2.903s] -- Configuring done
+[2.942s] -- Generating done
+[2.945s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/kansei
+[2.959s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/kansei' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei
+[2.959s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/kansei': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/kansei_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/kansei -- -j4 -l4
+[3.015s] [35m[1mScanning dependencies of target gtest[0m
+[3.032s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.661s] [  8%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.735s] [  8%] Built target gtest
+[7.749s] [35m[1mScanning dependencies of target gtest_main[0m
+[7.765s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.568s] [ 17%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.608s] [ 17%] Built target gtest_main
+[9.619s] [35m[1mScanning dependencies of target kansei[0m
+[9.724s] [ 21%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/fallen/node/fallen_determinant.cpp.o[0m
+[13.025s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/fallen/node/fallen_determinant.cpp:[m[K In member function ‘[01m[Kvoid kansei::fallen::FallenDeterminant::update_fallen_status(const keisan::Euler<double>&)[m[K’:
+[13.026s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/fallen/node/fallen_determinant.cpp:63:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krpy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.026s]    63 | void FallenDeterminant::update_fallen_status([01;35m[Kconst keisan::Euler<double> & rpy[m[K)
+[13.026s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.097s] [ 26%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/node/measurement_node.cpp.o[0m
+[16.710s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[16.710s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[16.710s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_node.cpp:28[m[K:
+[16.710s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[16.710s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.710s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[16.711s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[20.254s] [ 30%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/filter.cpp.o[0m
+[21.630s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[21.630s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:29[m[K:
+[21.630s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[21.630s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.631s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[21.631s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[22.235s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:29[m[K:
+[22.235s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::Filter::Filter()[m[K’:
+[22.235s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:72:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::Filter::filtered_gy_counter[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[22.235s]    72 |   int [01;35m[Kfiltered_gy_counter[m[K;
+[22.236s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[22.236s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:60:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Angle<double> kansei::measurement::Filter::raw_orientation_compensation[m[K’ [[01;35m[K-Wreorder[m[K]
+[22.236s]    60 |   keisan::Angle<double> [01;35m[Kraw_orientation_compensation[m[K;
+[22.236s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.236s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:44:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[22.236s]    44 | [01;35m[KFilter[m[K::Filter()
+[22.237s]       | [01;35m[K^~~~~~[m[K
+[23.984s] [ 34%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/madgwick/madgwick_filter.cpp.o[0m
+[25.528s] [ 39%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/madgwick/stateless_orientation.cpp.o[0m
+[28.902s] [ 43%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/sensor/mpu.cpp.o[0m
+[29.948s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:26[m[K,
+[29.948s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:25[m[K:
+[29.948s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[29.949s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[29.949s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[29.949s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[29.949s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:25[m[K:
+[29.949s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::MPU::MPU(const string&)[m[K’:
+[29.949s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:56:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MPU::oreintation_error[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[29.950s]    56 |   keisan::Angle<double> [01;35m[Koreintation_error[m[K;
+[29.950s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[29.950s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:55:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Angle<double> kansei::measurement::MPU::oreintation_compensation[m[K’ [[01;35m[K-Wreorder[m[K]
+[29.950s]    55 |   keisan::Angle<double> [01;35m[Koreintation_compensation[m[K;
+[29.950s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.950s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:46:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[29.950s]    46 | [01;35m[KMPU[m[K::MPU(const std::string & port_name)
+[29.950s]       | [01;35m[K^~~[m[K
+[30.161s] [ 47%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/node/kansei_node.cpp.o[0m
+[32.165s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[32.165s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[32.165s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/node/kansei_node.hpp:28[m[K,
+[32.166s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/node/kansei_node.cpp:27[m[K:
+[32.166s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[32.166s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[32.166s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[32.166s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[33.107s] [ 52%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/node/measurement_unit.cpp.o[0m
+[34.119s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[34.119s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[34.120s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[34.120s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[34.120s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[34.120s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::MeasurementUnit::MeasurementUnit()[m[K’:
+[34.120s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:62:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::is_calibrated[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[34.120s]    62 |   bool [01;35m[Kis_calibrated[m[K;
+[34.120s]       |        [01;35m[K^~~~~~~~~~~~~[m[K
+[34.120s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:60:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::filtered_acc[m[K’ [[01;35m[K-Wreorder[m[K]
+[34.120s]    60 |   keisan::Vector<3> [01;35m[Kfiltered_acc[m[K;
+[34.120s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[34.121s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[34.121s]    33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+[34.121s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[34.121s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[34.121s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:60:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::filtered_acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[34.121s]    60 |   keisan::Vector<3> [01;35m[Kfiltered_acc[m[K;
+[34.121s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[34.121s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:58:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::raw_acc[m[K’ [[01;35m[K-Wreorder[m[K]
+[34.121s]    58 |   keisan::Vector<3> [01;35m[Kraw_acc[m[K;
+[34.121s]       |                     [01;35m[K^~~~~~~[m[K
+[34.121s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[34.122s]    33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+[34.122s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[34.122s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[34.122s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:58:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::raw_acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[34.122s]    58 |   keisan::Vector<3> [01;35m[Kraw_acc[m[K;
+[34.122s]       |                     [01;35m[K^~~~~~~[m[K
+[34.122s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:55:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::gy[m[K’ [[01;35m[K-Wreorder[m[K]
+[34.122s]    55 |   keisan::Vector<3> [01;35m[Kgy[m[K;
+[34.122s]       |                     [01;35m[K^~[m[K
+[34.122s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[34.123s]    33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+[34.123s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[34.123s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[34.123s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:59:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[34.123s]    59 |   keisan::Vector<3> [01;35m[Kacc[m[K;
+[34.123s]       |                     [01;35m[K^~~[m[K
+[34.123s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:54:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::raw_gy[m[K’ [[01;35m[K-Wreorder[m[K]
+[34.123s]    54 |   keisan::Vector<3> [01;35m[Kraw_gy[m[K;
+[34.123s]       |                     [01;35m[K^~~~~~[m[K
+[34.123s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[34.123s]    33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+[34.124s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[34.330s] [ 56%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/fallen/node/fallen_node.cpp.o[0m
+[37.861s] [ 60%] [32m[1mLinking CXX shared library libkansei.so[0m
+[38.190s] [ 60%] Built target kansei
+[38.200s] [35m[1mScanning dependencies of target kansei_main[0m
+[38.202s] [35m[1mScanning dependencies of target kansei_tests[0m
+[38.260s] [ 65%] [32mBuilding CXX object CMakeFiles/kansei_main.dir/src/kansei_main.cpp.o[0m
+[38.277s] [ 69%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/fallen/determinant_test.cpp.o[0m
+[38.277s] [ 73%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/fallen/fallen_test.cpp.o[0m
+[40.162s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[40.163s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[40.163s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei_main.cpp:28[m[K:
+[40.163s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[40.164s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[40.164s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[40.164s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[42.732s] [ 78%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/measurement/measurement_test.cpp.o[0m
+[43.167s] [ 82%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/node/kansei_node_test.cpp.o[0m
+[43.437s] [ 86%] [32m[1mLinking CXX executable kansei_main[0m
+[43.720s] [ 86%] Built target kansei_main
+[43.734s] [35m[1mScanning dependencies of target check_rpy[0m
+[43.800s] [ 91%] [32mBuilding CXX object CMakeFiles/check_rpy.dir/src/check_rpy_main.cpp.o[0m
+[44.639s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[44.639s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[44.639s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/test/measurement/measurement_test.cpp:23[m[K:
+[44.639s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[44.639s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[44.640s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[44.640s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[45.435s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[45.435s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[45.435s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/check_rpy_main.cpp:27[m[K:
+[45.435s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[45.435s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[45.435s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[45.435s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[46.774s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+[46.774s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+[46.774s]                  from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/test/node/kansei_node_test.cpp:26[m[K:
+[46.774s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[46.774s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[46.774s]    43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+[46.774s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[47.765s] [ 95%] [32m[1mLinking CXX executable check_rpy[0m
+[47.987s] [ 95%] Built target check_rpy
+[48.081s] [100%] [32m[1mLinking CXX executable kansei_tests[0m
+[48.416s] [100%] Built target kansei_tests

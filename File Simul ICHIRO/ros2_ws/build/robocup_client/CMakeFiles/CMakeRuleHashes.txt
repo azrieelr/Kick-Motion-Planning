@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+8075bb0793adf1a0b782bddf3dc1f511 CMakeFiles/robocup_client_uninstall
+0322b2064110679d0e4485d4e3d35dda messages.pb.h

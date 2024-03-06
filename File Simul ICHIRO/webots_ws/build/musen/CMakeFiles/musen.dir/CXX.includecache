@@ -1,0 +1,188 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/receiver.hpp
+optional
+-
+string
+-
+utility
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/sender.hpp
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/tcp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/udp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/tcp/client.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/tcp/server.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/udp/broadcaster.hpp
+arpa/inet.h
+-
+list
+-
+memory
+-
+string
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/udp_socket.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/udp/listener.hpp
+memory
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/socket/udp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/receiver.cpp
+musen/receiver.hpp
+-
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/sender.cpp
+musen/sender.hpp
+-
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/socket/base_socket.cpp
+musen/socket/base_socket.hpp
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/socket/tcp_socket.cpp
+musen/socket/tcp_socket.hpp
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/socket/udp_socket.cpp
+musen/socket/udp_socket.hpp
+-
+arpa/inet.h
+-
+fcntl.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/tcp/client.cpp
+musen/tcp/client.hpp
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+algorithm
+-
+cstring
+-
+memory
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/tcp/server.cpp
+musen/tcp/server.hpp
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+algorithm
+-
+cstring
+-
+memory
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/udp/broadcaster.cpp
+musen/udp/broadcaster.hpp
+-
+ifaddrs.h
+-
+algorithm
+-
+cstring
+-
+list
+-
+memory
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/musen/src/udp/listener.cpp
+musen/udp/listener.hpp
+-
+arpa/inet.h
+-
+algorithm
+-
+cstring
+-
+memory
+-
+

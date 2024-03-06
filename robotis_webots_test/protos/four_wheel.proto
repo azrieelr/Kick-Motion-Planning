@@ -1,0 +1,140 @@
+PROTO four_wheel[
+  field SFVec3f    translation  0 0 0
+  field SFRotation rotation     0 0 1 0
+  field SFFloat    bodyMass     1
+]
+{
+Robot {
+  name "four_wheel"
+  translation IS translation
+  rotation IS rotation
+  children [
+    DistanceSensor {
+      translation 0.1 0.03 0
+      rotation 0 0 1 0.15
+      children [
+        DEF sensor Shape {
+          geometry Box {
+            size 0.01 0.005 0.005
+          }
+        }
+      ]
+      name "sensor1"
+    }
+    DistanceSensor {
+      translation 0.1 -0.03 0
+      rotation 0 0 1 -0.15
+      children [
+        USE sensor
+      ]
+      name "sensor2"
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        name "wheel1"
+        translation 0.05 0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          DEF wheel Shape {
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE wheel
+        physics DEF wheel_ph Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        name "wheel2"
+        translation 0.05 -0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        name "wheel3"
+        translation -0.05 0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        name "wheel4"
+        translation -0.05 -0.06 0
+        rotation 1 0 0 1.5708
+        children [
+          USE wheel
+        ]
+        boundingObject USE wheel
+        physics USE wheel_ph
+      }
+    }
+    DEF body Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+    density -1
+    mass IS bodyMass
+  }
+  controller "costum_robot_controller"
+}
+}

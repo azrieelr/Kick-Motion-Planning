@@ -1,0 +1,61 @@
+[0.114s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math
+[0.561s] -- The C compiler identification is GNU 9.4.0
+[0.773s] -- The CXX compiler identification is GNU 9.4.0
+[0.804s] -- Check for working C compiler: /usr/bin/cc
+[1.451s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.453s] -- Detecting C compiler ABI info
+[1.898s] -- Detecting C compiler ABI info - done
+[2.004s] -- Detecting C compile features
+[2.013s] -- Detecting C compile features - done
+[2.042s] -- Check for working CXX compiler: /usr/bin/c++
+[2.460s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.464s] -- Detecting CXX compiler ABI info
+[2.979s] -- Detecting CXX compiler ABI info - done
+[3.035s] -- Detecting CXX compile features
+[3.037s] -- Detecting CXX compile features - done
+[3.050s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.198s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.209s] -- Configuring done
+[5.239s] -- Generating done
+[5.250s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math
+[5.287s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_math -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math
+[5.292s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math -- -j4 -l4
+[5.608s] [35m[1mScanning dependencies of target framework_math[0m
+[5.694s] [ 20%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/matrix.cpp.o[0m
+[6.298s] [ 40%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/vector.cpp.o[0m
+[6.802s] [ 60%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/point.cpp.o[0m
+[7.117s] [ 80%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/plane.cpp.o[0m
+[7.281s] [100%] [32m[1mLinking CXX shared library libframework_math.so[0m
+[7.780s] [100%] Built target framework_math
+[7.875s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math -- -j4 -l4
+[8.112s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math
+[8.161s] -- Install configuration: ""
+[8.162s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include
+[8.162s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math
+[8.163s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/point.h
+[8.163s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/plane.h
+[8.174s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/vector.h
+[8.175s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/matrix.h
+[8.175s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math.h
+[8.175s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/lib/libframework_math.so
+[8.175s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/library_path.sh
+[8.176s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/library_path.dsv
+[8.176s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/package_run_dependencies/framework_math
+[8.176s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/parent_prefix_path/framework_math
+[8.176s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/ament_prefix_path.sh
+[8.177s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/ament_prefix_path.dsv
+[8.177s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/path.sh
+[8.177s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/path.dsv
+[8.185s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.bash
+[8.185s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.sh
+[8.185s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.zsh
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.dsv
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/package.dsv
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/packages/framework_math
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/ament_cmake_export_libraries-extras.cmake
+[8.186s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/framework_mathConfig.cmake
+[8.187s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/framework_mathConfig-version.cmake
+[8.187s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/package.xml
+[8.203s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math

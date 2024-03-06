@@ -1,0 +1,13 @@
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/walking_main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/walking_main.cpp:110:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kgy[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  110 |       double [01;35m[Kgy[m[K[3];
+      |              [01;35m[K^~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/walking_main.cpp:118:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kacc[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  118 |       double [01;35m[Kacc[m[K[3];
+      |              [01;35m[K^~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/walking_main.cpp:126:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kseconds[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  126 |       double [01;35m[Kseconds[m[K = (sensors.get()->time() + 0.0) / 1000;
+      |              [01;35m[K^~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/walking_main.cpp:65:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   65 |   float [01;35m[Kcounter[m[K = 1.0;
+      |         [01;35m[K^~~~~~~[m[K

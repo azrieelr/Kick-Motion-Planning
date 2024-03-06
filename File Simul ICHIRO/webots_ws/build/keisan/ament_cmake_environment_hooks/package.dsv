@@ -1,0 +1,4 @@
+source;share/keisan/local_setup.bash
+source;share/keisan/local_setup.dsv
+source;share/keisan/local_setup.sh
+source;share/keisan/local_setup.zsh

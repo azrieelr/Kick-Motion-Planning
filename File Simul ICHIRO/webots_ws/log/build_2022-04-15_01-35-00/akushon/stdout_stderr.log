@@ -1,0 +1,6 @@
+[ 66%] Built target akushon
+[35m[1mScanning dependencies of target action_manager[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/action_manager.dir/src/action_manager_main.cpp.o[0m
+make[2]: *** [CMakeFiles/action_manager.dir/build.make:63: CMakeFiles/action_manager.dir/src/action_manager_main.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/action_manager.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

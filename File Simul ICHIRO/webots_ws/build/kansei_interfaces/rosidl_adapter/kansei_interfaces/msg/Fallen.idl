@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kansei_interfaces/msg/Fallen.msg
+// generated code does not contain a copyright notice
+
+
+module kansei_interfaces {
+  module msg {
+    struct Fallen {
+      int8 fallen_status;
+    };
+  };
+};

@@ -1,0 +1,126 @@
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/fallen/node/fallen_determinant.cpp:[m[K In member function ‘[01m[Kvoid kansei::fallen::FallenDeterminant::update_fallen_status(const keisan::Euler<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/fallen/node/fallen_determinant.cpp:63:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krpy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   63 | void FallenDeterminant::update_fallen_status([01;35m[Kconst keisan::Euler<double> & rpy[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_node.cpp:28[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:29[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:29[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::Filter::Filter()[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:72:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::Filter::filtered_gy_counter[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   72 |   int [01;35m[Kfiltered_gy_counter[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:60:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Angle<double> kansei::measurement::Filter::raw_orientation_compensation[m[K’ [[01;35m[K-Wreorder[m[K]
+   60 |   keisan::Angle<double> [01;35m[Kraw_orientation_compensation[m[K;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/filter/filter.cpp:44:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   44 | [01;35m[KFilter[m[K::Filter()
+      | [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:26[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:25[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:25[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::MPU::MPU(const string&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:56:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MPU::oreintation_error[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   56 |   keisan::Angle<double> [01;35m[Koreintation_error[m[K;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/sensor/mpu.hpp:55:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Angle<double> kansei::measurement::MPU::oreintation_compensation[m[K’ [[01;35m[K-Wreorder[m[K]
+   55 |   keisan::Angle<double> [01;35m[Koreintation_compensation[m[K;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/sensor/mpu.cpp:46:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 | [01;35m[KMPU[m[K::MPU(const std::string & port_name)
+      | [01;35m[K^~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/node/kansei_node.hpp:28[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/node/kansei_node.cpp:27[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In constructor ‘[01m[Kkansei::measurement::MeasurementUnit::MeasurementUnit()[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:62:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::is_calibrated[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   62 |   bool [01;35m[Kis_calibrated[m[K;
+      |        [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:60:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::filtered_acc[m[K’ [[01;35m[K-Wreorder[m[K]
+   60 |   keisan::Vector<3> [01;35m[Kfiltered_acc[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:60:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::filtered_acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   60 |   keisan::Vector<3> [01;35m[Kfiltered_acc[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:58:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::raw_acc[m[K’ [[01;35m[K-Wreorder[m[K]
+   58 |   keisan::Vector<3> [01;35m[Kraw_acc[m[K;
+      |                     [01;35m[K^~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:58:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::raw_acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   58 |   keisan::Vector<3> [01;35m[Kraw_acc[m[K;
+      |                     [01;35m[K^~~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:55:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::gy[m[K’ [[01;35m[K-Wreorder[m[K]
+   55 |   keisan::Vector<3> [01;35m[Kgy[m[K;
+      |                     [01;35m[K^~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:21[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:59:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kkansei::measurement::MeasurementUnit::acc[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   59 |   keisan::Vector<3> [01;35m[Kacc[m[K;
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:54:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kkeisan::Vector<3> kansei::measurement::MeasurementUnit::raw_gy[m[K’ [[01;35m[K-Wreorder[m[K]
+   54 |   keisan::Vector<3> [01;35m[Kraw_gy[m[K;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei/measurement/node/measurement_unit.cpp:33:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   33 | [01;35m[KMeasurementUnit[m[K::MeasurementUnit()
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/kansei_main.cpp:28[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/test/measurement/measurement_test.cpp:23[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/src/check_rpy_main.cpp:27[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/filter/filter.hpp:27[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/measurement.hpp:24[m[K,
+                 from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/test/node/kansei_node_test.cpp:26[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:[m[K In member function ‘[01m[Kvirtual void kansei::measurement::MeasurementUnit::set_orientation_to(const keisan::Angle<double>&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/kansei/include/kansei/measurement/node/measurement_unit.hpp:43:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_orientation[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   virtual void set_orientation_to([01;35m[Kconst keisan::Angle<double> & target_orientation[m[K) {}
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,212 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/joint__type_support.c
+stddef.h
+-
+tachimawari_interfaces/msg/detail/joint__rosidl_typesupport_introspection_c.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/detail/joint__rosidl_typesupport_introspection_c.h
+tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/field_types.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_typesupport_introspection_c/field_types.h
+rosidl_typesupport_introspection_c/identifier.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_typesupport_introspection_c/identifier.h
+rosidl_typesupport_introspection_c/message_introspection.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
+tachimawari_interfaces/msg/detail/joint__functions.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/detail/joint__functions.h
+tachimawari_interfaces/msg/detail/joint__struct.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/detail/joint__struct.h
+rosidl_runtime_c/string_functions.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_runtime_c/string_functions.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/set_joints__type_support.c
+stddef.h
+-
+tachimawari_interfaces/srv/detail/set_joints__rosidl_typesupport_introspection_c.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/srv/detail/set_joints__rosidl_typesupport_introspection_c.h
+tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/field_types.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_typesupport_introspection_c/field_types.h
+rosidl_typesupport_introspection_c/identifier.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_typesupport_introspection_c/identifier.h
+rosidl_typesupport_introspection_c/message_introspection.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_typesupport_introspection_c/message_introspection.h
+tachimawari_interfaces/srv/detail/set_joints__functions.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/srv/detail/set_joints__functions.h
+tachimawari_interfaces/srv/detail/set_joints__struct.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/srv/detail/set_joints__struct.h
+tachimawari_interfaces/msg/joint.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/joint.h
+tachimawari_interfaces/msg/detail/joint__rosidl_typesupport_introspection_c.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/detail/joint__rosidl_typesupport_introspection_c.h
+rosidl_runtime_c/service_type_support_struct.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_runtime_c/service_type_support_struct.h
+rosidl_typesupport_introspection_c/service_introspection.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari_interfaces/rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_typesupport_introspection_c/service_introspection.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/string.h
+stddef.h
+-
+rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/string_functions.h
+stddef.h
+-
+rosidl_runtime_c/string.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/field_types.h
+stdint.h
+-
+
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/identifier.h
+rosidl_typesupport_introspection_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
+
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/message_introspection.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/message_initialization.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_initialization.h
+rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_introspection_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
+
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/service_introspection.h
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/service_type_support_struct.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/visibility_control.h
+rosidl_typesupport_introspection_c/message_introspection.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h
+
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/visibility_control.h
+
+rosidl_generator_c/tachimawari_interfaces/msg/detail/joint__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+tachimawari_interfaces/msg/detail/joint__struct.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/detail/joint__struct.h
+
+rosidl_generator_c/tachimawari_interfaces/msg/detail/joint__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/string.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/rosidl_runtime_c/string.h
+
+rosidl_generator_c/tachimawari_interfaces/msg/detail/joint__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/tachimawari_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+
+rosidl_generator_c/tachimawari_interfaces/msg/joint.h
+tachimawari_interfaces/msg/detail/joint__struct.h
+rosidl_generator_c/tachimawari_interfaces/msg/tachimawari_interfaces/msg/detail/joint__struct.h
+tachimawari_interfaces/msg/detail/joint__functions.h
+rosidl_generator_c/tachimawari_interfaces/msg/tachimawari_interfaces/msg/detail/joint__functions.h
+tachimawari_interfaces/msg/detail/joint__type_support.h
+rosidl_generator_c/tachimawari_interfaces/msg/tachimawari_interfaces/msg/detail/joint__type_support.h
+
+rosidl_generator_c/tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/tachimawari_interfaces/srv/detail/set_joints__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/tachimawari_interfaces/srv/detail/rosidl_runtime_c/visibility_control.h
+tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/rosidl_generator_c__visibility_control.h
+tachimawari_interfaces/srv/detail/set_joints__struct.h
+rosidl_generator_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/srv/detail/set_joints__struct.h
+
+rosidl_generator_c/tachimawari_interfaces/srv/detail/set_joints__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+tachimawari_interfaces/msg/detail/joint__struct.h
+rosidl_generator_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/detail/joint__struct.h
+
+rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/joint__rosidl_typesupport_introspection_c.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/detail/tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+rosidl_typesupport_introspection_c/tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/set_joints__rosidl_typesupport_introspection_c.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_typesupport_interface/macros.h
+tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/tachimawari_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+rosidl_runtime_c/service_type_support_struct.h
+rosidl_typesupport_introspection_c/tachimawari_interfaces/srv/detail/rosidl_runtime_c/service_type_support_struct.h
+

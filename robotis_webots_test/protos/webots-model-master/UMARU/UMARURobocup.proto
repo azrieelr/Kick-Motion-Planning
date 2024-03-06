@@ -1,0 +1,20 @@
+#VRML_SIM R2021b utf8
+
+PROTO UMARURobocup [
+  field SFVec3f     translation     0 0 0
+  field SFRotation  rotation        0 1 0 0
+  field SFString    name            "blue player 1"
+  field MFString    controllerArgs  []
+  field SFString    customData      ""
+]
+{
+  UMARU {
+    translation IS translation
+    rotation IS rotation
+    name IS name
+    controllerArgs IS controllerArgs
+    customData IS customData
+    controller "player"
+    selfCollision TRUE
+  }
+}

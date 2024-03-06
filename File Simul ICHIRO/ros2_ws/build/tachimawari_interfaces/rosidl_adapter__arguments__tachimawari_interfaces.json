@@ -1,0 +1,7 @@
+{
+  "package_name": "tachimawari_interfaces",
+  "non_idl_tuples": [
+    "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/tachimawari_interfaces:msg/Joint.msg",
+    "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/tachimawari_interfaces:srv/SetJoints.srv"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "robot_name" : "UMARU",
+    "upright" : {
+        "neck_yaw": 0.0,
+        "neck_pitch": 0.0,
+        "right_shoulder_pitch [shoulder]": 0.0,
+        "right_shoulder_roll": 0.0,
+        "right_elbow": 0.0,
+        "left_shoulder_pitch [shoulder]": 0.0,
+        "left_shoulder_roll": 0.0,
+        "left_elbow": 0.0,
+        "right_hip_yaw [hip]": 0.0,
+        "right_hip_roll": 0.0,
+        "right_hip_pitch": 0.0,
+        "right_knee": 0.0,
+        "right_ankle_roll": 0.0,
+        "right_ankle_pitch": 0.0,
+        "left_hip_yaw [hip]": 0.0,
+        "left_hip_roll": 0.0,
+        "left_hip_pitch": 0.0,
+        "left_knee": 0.0,
+        "left_ankle_roll": 0.0,
+        "left_ankle_pitch": 0.0
+    },
+    "extension": {
+        "neck_yaw": 0.0,
+        "neck_pitch": 0.0,
+        "right_shoulder_pitch [shoulder]": 3.13,
+        "right_shoulder_roll": -0.8,
+        "right_elbow": 0.0,
+        "left_shoulder_pitch [shoulder]": 3.13,
+        "left_shoulder_roll": -0.8,
+        "left_elbow": 0.0,
+        "right_hip_yaw [hip]": 0.0,
+        "right_hip_roll": 0.8,
+        "right_hip_pitch": 0.0,
+        "right_knee": 0.0,
+        "right_ankle_roll": 0.0,
+        "right_ankle_pitch": 0.0,
+        "left_hip_yaw [hip]": 0.0,
+        "left_hip_roll": -0.8,
+        "left_hip_pitch": 0.0,
+        "left_knee": 0.0,
+        "left_ankle_roll": 0.0,
+        "left_ankle_pitch": 0.0
+    }
+}
+    

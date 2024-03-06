@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libframework_math.so -o libframework_math.so CMakeFiles/framework_math.dir/src/matrix.cpp.o CMakeFiles/framework_math.dir/src/plane.cpp.o CMakeFiles/framework_math.dir/src/point.cpp.o CMakeFiles/framework_math.dir/src/vector.cpp.o 

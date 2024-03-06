@@ -1,0 +1,3 @@
+source;share/keisan/environment/ament_prefix_path.sh
+source;share/keisan/environment/library_path.sh
+source;share/keisan/environment/path.sh

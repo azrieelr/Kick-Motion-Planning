@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libkeisan.so -o libkeisan.so CMakeFiles/keisan.dir/src/angle/angle.cpp.o CMakeFiles/keisan.dir/src/geometry/point_2.cpp.o CMakeFiles/keisan.dir/src/geometry/point_3.cpp.o CMakeFiles/keisan.dir/src/constant.cpp.o 

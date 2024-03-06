@@ -1,0 +1,11 @@
+source;share/keisan/hook/cmake_prefix_path.ps1
+source;share/keisan/hook/cmake_prefix_path.dsv
+source;share/keisan/hook/cmake_prefix_path.sh
+source;share/keisan/hook/ld_library_path_lib.ps1
+source;share/keisan/hook/ld_library_path_lib.dsv
+source;share/keisan/hook/ld_library_path_lib.sh
+source;share/keisan/local_setup.bash
+source;share/keisan/local_setup.dsv
+source;share/keisan/local_setup.ps1
+source;share/keisan/local_setup.sh
+source;share/keisan/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/tachimawari/local_setup.bash
+source;share/tachimawari/local_setup.dsv
+source;share/tachimawari/local_setup.sh
+source;share/tachimawari/local_setup.zsh

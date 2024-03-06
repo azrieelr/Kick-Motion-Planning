@@ -1,0 +1,5 @@
+source;share/akushon/local_setup.bash
+source;share/akushon/local_setup.dsv
+source;share/akushon/local_setup.ps1
+source;share/akushon/local_setup.sh
+source;share/akushon/local_setup.zsh

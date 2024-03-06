@@ -1,0 +1,101 @@
+[0.047s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/robocup_client -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client
+[0.239s] -- The C compiler identification is GNU 9.4.0
+[0.435s] -- The CXX compiler identification is GNU 9.4.0
+[0.450s] -- Check for working C compiler: /usr/bin/cc
+[0.704s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.707s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[1.001s] -- Detecting C compile features
+[1.002s] -- Detecting C compile features - done
+[1.014s] -- Check for working CXX compiler: /usr/bin/c++
+[1.368s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.379s] -- Detecting CXX compiler ABI info
+[1.702s] -- Detecting CXX compiler ABI info - done
+[1.738s] -- Detecting CXX compile features
+[1.742s] -- Detecting CXX compile features - done
+[1.745s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.813s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.814s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.448s] -- Found keisan: 0.3.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake)
+[2.486s] -- Found musen: 1.1.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/share/musen/cmake)
+[2.518s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.744s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.086s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.619s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.626s] -- Looking for pthread.h
+[3.928s] -- Looking for pthread.h - found
+[3.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.255s] -- Looking for pthread_create in pthreads
+[4.558s] -- Looking for pthread_create in pthreads - not found
+[4.559s] -- Looking for pthread_create in pthread
+[4.803s] -- Looking for pthread_create in pthread - found
+[4.805s] -- Found Threads: TRUE  
+[5.668s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.679s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.927s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.936s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.937s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/robocup_client/include>
+[5.937s] -- Configured cppcheck exclude dirs and/or files: 
+[5.947s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.948s] -- Configured cpplint exclude dirs and/or files: 
+[5.951s] -- Added test 'lint_cmake' to check CMake code style
+[5.962s] -- Added test 'uncrustify' to check C / C++ code style
+[5.963s] -- Configured uncrustify additional arguments: 
+[5.966s] -- Added test 'xmllint' to check XML markup files
+[5.985s] -- Configuring done
+[6.031s] -- Generating done
+[6.038s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client
+[6.066s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/robocup_client -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client
+[6.076s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client -- -j4 -l4
+[6.226s] [ 12%] [34m[1mRunning cpp protocol buffer compiler on include/robocup_client/messages.proto[0m
+[6.344s] [35m[1mScanning dependencies of target robocup_client[0m
+[6.441s] [ 25%] [32mBuilding CXX object CMakeFiles/robocup_client.dir/examples/client.cpp.o[0m
+[10.065s] [ 37%] [32mBuilding CXX object CMakeFiles/robocup_client.dir/messages.pb.cc.o[0m
+[17.236s] [ 50%] [32mBuilding CXX object CMakeFiles/robocup_client.dir/src/robocup_client/message_handler.cpp.o[0m
+[22.508s] [ 62%] [32mBuilding CXX object CMakeFiles/robocup_client.dir/src/robocup_client/robot_client.cpp.o[0m
+[26.251s] [ 75%] [32m[1mLinking CXX shared library librobocup_client.so[0m
+[26.768s] [ 75%] Built target robocup_client
+[26.793s] [35m[1mScanning dependencies of target client[0m
+[26.824s] [ 87%] [32mBuilding CXX object CMakeFiles/client.dir/examples/client.cpp.o[0m
+[30.399s] [100%] [32m[1mLinking CXX executable client[0m
+[30.738s] [100%] Built target client
+[30.753s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client -- -j4 -l4
+[30.895s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client
+[30.939s] -- Install configuration: ""
+[30.939s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include
+[30.939s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include/robocup_client
+[30.940s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include/robocup_client/message_handler.hpp
+[30.941s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include/robocup_client/messages.proto
+[30.943s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include/robocup_client/robot_client.hpp
+[30.944s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/./include/robocup_client/robocup_client.hpp
+[30.945s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/include/robocup_client/messages.pb.h
+[30.945s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib/librobocup_client.so
+[30.946s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib/librobocup_client.so" to ""
+[30.948s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib/robocup_client/client
+[30.957s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib/robocup_client/client" to ""
+[30.958s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/library_path.sh
+[30.958s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/library_path.dsv
+[30.962s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/ament_index/resource_index/package_run_dependencies/robocup_client
+[30.963s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/ament_index/resource_index/parent_prefix_path/robocup_client
+[30.964s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/ament_prefix_path.sh
+[30.964s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/ament_prefix_path.dsv
+[30.964s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/path.sh
+[30.965s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/environment/path.dsv
+[30.965s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/local_setup.bash
+[30.965s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/local_setup.sh
+[30.966s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/local_setup.zsh
+[30.966s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/local_setup.dsv
+[30.966s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/package.dsv
+[30.966s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/ament_index/resource_index/packages/robocup_client
+[30.967s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.967s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.967s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake/ament_cmake_export_libraries-extras.cmake
+[30.968s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake/robocup_clientConfig.cmake
+[30.968s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/cmake/robocup_clientConfig-version.cmake
+[30.968s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/share/robocup_client/package.xml
+[30.984s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/robocup_client

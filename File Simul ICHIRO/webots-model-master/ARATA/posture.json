@@ -1,0 +1,48 @@
+{
+    "robot_name" : "ARATA",
+    "upright" : {
+        "Neck": 0.0,
+        "Head": 0.0,
+        "ShoulderR [shoulder]": 0.0,
+        "ArmUpperR": 1.6,
+        "ArmLowerR": 0.0,
+        "ShoulderL [shoulder]": 0.0,
+        "ArmUpperL": 1.6,
+        "ArmLowerL": 0.0,
+        "PevlYR [hip]": 0.0,
+        "PevlR": 0.0,
+        "LegUpperR": 0.0,
+        "LegLowerR": 0.0,
+        "AnkleR": 0.0,
+        "FootR": 0.0,
+        "PevlYL [hip]": 0.0,
+        "PevlL": 0.0,
+        "LegUpperL": 0.0,
+        "LegLowerL": 0.0,
+        "AnkleL": 0.0,
+        "FootL": 0.0
+    },
+    "extension": {
+        "Neck": 0.0,
+        "Head": 0.0,
+        "ShoulderR [shoulder]": 3.13,
+        "ArmUpperR": 0.8,
+        "ArmLowerR": 0.0,
+        "ShoulderL [shoulder]": 3.13,
+        "ArmUpperL": 0.8,
+        "ArmLowerL": 0.0,
+        "PevlYR [hip]": 0.0,
+        "PevlR": -0.8,
+        "LegUpperR": 0.0,
+        "LegLowerR": 0.0,
+        "AnkleR": 0.0,
+        "FootR": 0.0,
+        "PevlYL [hip]": 0.0,
+        "PevlL": 0.8,
+        "LegUpperL": 0.0,
+        "LegLowerL": 0.0,
+        "AnkleL": 0.0,
+        "FootL": 0.0
+    }
+}
+    

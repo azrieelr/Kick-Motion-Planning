@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tachimawari_interfaces: 0.0.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari_interfaces/share/tachimawari_interfaces/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/tachimawari/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/tachimawari
+[35m[1mScanning dependencies of target tachimawari[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/tachimawari.dir/src/tachimawari/joint.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/tachimawari.dir/src/tachimawari/motion_manager.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libtachimawari.so[0m
+[ 33%] Built target tachimawari
+[35m[1mScanning dependencies of target motion_manager[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_manager_main.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable motion_manager[0m
+[ 55%] Built target motion_manager
+[35m[1mScanning dependencies of target check_joints[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/check_joints.dir/src/check_joints_main.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable check_joints[0m
+[ 77%] Built target check_joints
+[35m[1mScanning dependencies of target move_joint[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/move_joint.dir/src/move_joint_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_joint[0m
+[100%] Built target move_joint
+-- Install configuration: ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/./include
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/./include/tachimawari
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/./include/tachimawari/joint.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/./include/tachimawari/motion_manager.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/libtachimawari.so
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/libtachimawari.so" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/check_joints
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/check_joints" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/move_joint
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/move_joint" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/motion_manager
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/lib/tachimawari/motion_manager" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/library_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/library_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/ament_index/resource_index/package_run_dependencies/tachimawari
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/ament_index/resource_index/parent_prefix_path/tachimawari
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/ament_prefix_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/ament_prefix_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/environment/path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/local_setup.bash
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/local_setup.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/local_setup.zsh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/local_setup.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/package.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/ament_index/resource_index/packages/tachimawari
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/cmake/tachimawariConfig.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/cmake/tachimawariConfig-version.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/tachimawari/share/tachimawari/package.xml

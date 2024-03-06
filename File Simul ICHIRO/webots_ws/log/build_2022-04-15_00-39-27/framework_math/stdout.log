@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_math
+[35m[1mScanning dependencies of target framework_math[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/matrix.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/vector.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/point.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/framework_math.dir/src/plane.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libframework_math.so[0m
+[100%] Built target framework_math
+-- Install configuration: ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/point.h
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/plane.h
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/vector.h
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math/matrix.h
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/./include/math.h
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/lib/libframework_math.so
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/library_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/library_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/package_run_dependencies/framework_math
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/parent_prefix_path/framework_math
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/ament_prefix_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/ament_prefix_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/environment/path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.bash
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.zsh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/local_setup.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/package.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/ament_index/resource_index/packages/framework_math
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/framework_mathConfig.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/cmake/framework_mathConfig-version.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/share/framework_math/package.xml

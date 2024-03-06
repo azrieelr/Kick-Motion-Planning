@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/algebra.h
+vector2.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/vector2.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/behavior.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/binary.h
+string
+-
+stdint.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/cli.h
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h
+string
+-
+list
+-
+map
+-
+yaml-cpp/yaml.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/duration.h
+time.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/linux.h
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/pid_control.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/vector2.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/vector3.h
+eigen3/Eigen/Dense
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/algebra.cpp
+common/algebra.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/algebra.h
+math.h
+-
+limits
+-
+cstdlib
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/behavior.cpp
+common/behavior.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/behavior.h
+stdio.h
+-
+unistd.h
+-
+sys/time.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/binary.cpp
+common/binary.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/binary.h
+stdint.h
+-
+string.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/cli.cpp
+common/cli.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/cli.h
+common/binary.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/binary.h
+sstream
+-
+iostream
+-
+iomanip
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/config.cpp
+common/config.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/config.h
+common/linux.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/linux.h
+fstream
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/duration.cpp
+common/duration.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/duration.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/linux.cpp
+common/linux.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/linux.h
+vector
+-
+algorithm
+-
+sstream
+-
+fstream
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/pid_control.cpp
+common/pid_control.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/pid_control.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/vector2.cpp
+common/vector2.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/vector2.h
+common/algebra.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/algebra.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/vector3.cpp
+common/vector3.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/vector3.h
+common/algebra.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/common/algebra.h
+

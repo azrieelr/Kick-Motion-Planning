@@ -1,0 +1,172 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/musen.hpp
+./socket/base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+./socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+./socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+./tcp/client.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/client.hpp
+./tcp/server.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/server.hpp
+./udp/broadcaster.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/broadcaster.hpp
+./udp/listener.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/listener.hpp
+./sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+./receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+optional
+-
+string
+-
+utility
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/client.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/server.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/broadcaster.hpp
+arpa/inet.h
+-
+list
+-
+memory
+-
+string
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/listener.hpp
+memory
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/examples/client.cpp
+robocup_client/robocup_client.hpp
+-
+google/protobuf/io/zero_copy_stream_impl.h
+-
+google/protobuf/text_format.h
+-
+unistd.h
+-
+fstream
+-
+iostream
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/message_handler.hpp
+memory
+-
+string
+-
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robocup_client.hpp
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+./robot_client.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robot_client.hpp
+./message_handler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/message_handler.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robot_client.hpp
+musen/musen.hpp
+-
+string
+-
+memory
+-
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+
+messages.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/inlined_string_field.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/generated_enum_reflection.h
+-
+google/protobuf/unknown_field_set.h
+-
+

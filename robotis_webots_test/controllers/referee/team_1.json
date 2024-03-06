@@ -1,0 +1,24 @@
+{
+  "name": "Ichiro",
+  "players": {
+    "1": {
+      "proto": "UMARURobocup",
+      "halfTimeStartingPose": {
+        "translation": [-3.5, -3.29, 0.521],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "reentryStartingPose": {
+        "translation": [-3.5, -3.29, 0.521],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "shootoutStartingPose": {
+        "translation": [2.66, 0.25, 0.521],
+        "rotation": [0, 0, 1, 0]
+      },
+      "goalKeeperStartingPose": {
+        "translation": [-4.4, -0.25, 0.521],
+        "rotation": [0, 0, 1, 0]
+      }
+    }
+  }
+}

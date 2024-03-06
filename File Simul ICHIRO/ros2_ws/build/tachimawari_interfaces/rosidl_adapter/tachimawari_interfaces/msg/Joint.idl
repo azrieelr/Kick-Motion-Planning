@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tachimawari_interfaces/msg/Joint.msg
+// generated code does not contain a copyright notice
+
+
+module tachimawari_interfaces {
+  module msg {
+    struct Joint {
+      string name;
+
+      float position;
+
+      @default (value=1.0)
+      float speed;
+    };
+  };
+};

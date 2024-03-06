@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/include/common/algebra.h
+vector2.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/include/common/vector2.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/include/common/vector2.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/matrix.h
+math/vector.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/math/vector.h
+math/point.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/vector.h
+math/point.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/include/math/math/point.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/include/tachimawari/joint.hpp
+map
+-
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/include/aruku/walking.hpp
+tachimawari/joint.hpp
+-
+map
+-
+memory
+-
+string
+-
+vector
+-
+common/algebra.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/include/aruku/common/algebra.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/aruku/walking.cpp
+aruku/walking.hpp
+-
+tachimawari/joint.hpp
+-
+nlohmann/json.hpp
+-
+cmath
+-
+cstdlib
+-
+fstream
+-
+iostream
+-
+map
+-
+memory
+-
+string
+-
+vector
+-
+common/algebra.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/aruku/common/algebra.h
+math/matrix.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/aruku/math/matrix.h
+math/vector.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/aruku/src/aruku/math/vector.h
+

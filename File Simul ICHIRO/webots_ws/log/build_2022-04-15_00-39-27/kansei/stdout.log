@@ -1,0 +1,147 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found kansei_interfaces: 0.0.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces/share/kansei_interfaces/cmake)
+-- Found keisan: 0.3.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/share/keisan/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/kansei/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/kansei
+[35m[1mScanning dependencies of target gtest[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] [32m[1mLinking CXX static library libgtest.a[0m
+[  8%] Built target gtest
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 17%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 17%] Built target gtest_main
+[35m[1mScanning dependencies of target kansei[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/fallen/node/fallen_determinant.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/node/measurement_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/filter.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/madgwick/madgwick_filter.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/filter/madgwick/stateless_orientation.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/sensor/mpu.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/node/kansei_node.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/measurement/node/measurement_unit.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/kansei.dir/src/kansei/fallen/node/fallen_node.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libkansei.so[0m
+[ 60%] Built target kansei
+[35m[1mScanning dependencies of target kansei_tests[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/fallen/determinant_test.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/fallen/fallen_test.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/measurement/measurement_test.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/kansei_tests.dir/test/node/kansei_node_test.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable kansei_tests[0m
+[ 82%] Built target kansei_tests
+[35m[1mScanning dependencies of target check_rpy[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/check_rpy.dir/src/check_rpy_main.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable check_rpy[0m
+[ 91%] Built target check_rpy
+[35m[1mScanning dependencies of target kansei_main[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/kansei_main.dir/src/kansei_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable kansei_main[0m
+[100%] Built target kansei_main
+-- Install configuration: ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/filter.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/madgwick
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/madgwick/madgwick_filter.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/madgwick/stateless_orientation.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/madgwick/madgwick.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/filter/madgwick/world_frame.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/sensor
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/sensor/mpu.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/node
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/node/measurement_node.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/node/measurement_unit.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/measurement/measurement.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/node
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/node/kansei_node.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/fallen.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/node
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/node/fallen_status.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/node/fallen_node.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/node/fallen_determinant.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/determinant
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/./include/kansei/fallen/determinant/determinant_type.hpp
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/libkansei.so
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/libkansei.so" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/kansei/check_rpy
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/kansei/check_rpy" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/kansei/kansei_main
+-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib/kansei/kansei_main" to ""
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/library_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/library_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/ament_index/resource_index/package_run_dependencies/kansei
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/ament_index/resource_index/parent_prefix_path/kansei
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/ament_prefix_path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/ament_prefix_path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/path.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/environment/path.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/local_setup.bash
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/local_setup.sh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/local_setup.zsh
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/local_setup.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/package.dsv
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/ament_index/resource_index/packages/kansei
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/cmake/kanseiConfig.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/cmake/kanseiConfig-version.cmake
+-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/share/kansei/package.xml

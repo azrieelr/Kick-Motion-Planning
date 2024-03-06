@@ -1,0 +1,227 @@
+IMPORT math
+from Bezier IMPORT Bezier
+IMPORT numpy as np
+
+## Kaki robot besar
+SET THIGH_LENGTH TO 199.0
+SET CALF_LENGTH TO 195.0
+SET ANKLE_LENGTH TO 59.7
+SET LEG_LENGTH TO 453.7
+
+## Matriks Translasi 
+DEFINE CLASS Matrix:
+    DEFINE FUNCTION __init__(self) -> None:
+        SET self.m TO [
+            1,0,0,0,
+            0,1,0,0,
+            0,0,1,0,
+            0,0,0,1
+        ]
+
+## Matriks Rotasi 
+    DEFINE FUNCTION SetTransform(self, point, angle):
+        SET Cx TO math.cos(angle[0] * math.pi / 180.0)
+        SET Cy TO math.cos(angle[1] * math.pi / 180.0)
+        SET Cz TO math.cos(angle[2] * math.pi / 180.0)
+        SET Sx TO math.sin(angle[0] * math.pi / 180.0)
+        SET Sy TO math.sin(angle[1] * math.pi / 180.0)
+        SET Sz TO math.sin(angle[2] * math.pi / 180.0)
+
+## Matriks Translasi diambil matriks 3x3 dengan baris 4 dianggap sama 
+        SET self.m[0] TO Cz * Cy
+        SET self.m[1] TO Cz * Sy * Sx - Sz * Cx
+        SET self.m[2] TO Cz * Sy * Cx + Sz * Sx
+        SET self.m[3] TO point[0]
+        SET self.m[4] TO Sz * Cy
+        SET self.m[5] TO Sz * Sy * Sx + Cz * Cx
+        SET self.m[6] TO Sz * Sy * Sx + Cz * Cx
+        SET self.m[7] TO point[1]
+        SET self.m[8] TO -Sy
+        SET self.m[9] TO Cy * Sx
+        SET self.m[10] TO Cy * Cx
+        SET self.m[11] TO point[2]
+
+    DEFINE FUNCTION Inverse(self):
+        SET src TO Matrix()
+        SET dst TO Matrix()
+        SET tmp TO Matrix()
+
+        FOR i IN range(4):
+            SET src.m[i] TO self.m[i*4]
+            SET src.m[i + 4] TO self.m[i*4 + 1]
+            SET src.m[i + 8] TO self.m[i*4 + 2]
+            SET src.m[i + 12] TO self.m[i*4 + 3]
+
+## Mencari matriks homogenous
+        SET tmp.m[0] TO src.m[10] * src.m[15]
+        SET tmp.m[1] TO src.m[11] * src.m[14]
+        SET tmp.m[2] TO src.m[9] * src.m[15]
+        SET tmp.m[3] TO src.m[11] * src.m[13]
+        SET tmp.m[4] TO src.m[9] * src.m[14]
+        SET tmp.m[5] TO src.m[10] * src.m[13]
+        SET tmp.m[6] TO src.m[8] * src.m[15]
+        SET tmp.m[7] TO src.m[11] * src.m[12]
+        SET tmp.m[8] TO src.m[8] * src.m[14]
+        SET tmp.m[9] TO src.m[10] * src.m[12]
+        SET tmp.m[10] TO src.m[8] * src.m[13]
+        SET tmp.m[11] TO src.m[9] * src.m[12]
+
+        SET dst.m[0] TO (tmp.m[0]*src.m[5] + tmp.m[3]*src.m[6] + tmp.m[4]*src.m[7]) - (tmp.m[1]*src.m[5] + tmp.m[2]*src.m[6] + tmp.m[5]*src.m[7])
+        SET dst.m[1] TO (tmp.m[1]*src.m[4] + tmp.m[6]*src.m[6] + tmp.m[9]*src.m[7]) - (tmp.m[0]*src.m[4] + tmp.m[7]*src.m[6] + tmp.m[8]*src.m[7])
+        SET dst.m[2] TO (tmp.m[2]*src.m[4] + tmp.m[7]*src.m[5] + tmp.m[10]*src.m[7]) - (tmp.m[3]*src.m[4] + tmp.m[6]*src.m[5] + tmp.m[11]*src.m[7])
+        SET dst.m[3] TO (tmp.m[5]*src.m[4] + tmp.m[8]*src.m[5] + tmp.m[11]*src.m[6]) - (tmp.m[4]*src.m[4] + tmp.m[9]*src.m[5] + tmp.m[10]*src.m[6])
+        SET dst.m[4] TO (tmp.m[1]*src.m[1] + tmp.m[2]*src.m[2] + tmp.m[5]*src.m[3]) - (tmp.m[0]*src.m[1] + tmp.m[3]*src.m[2] + tmp.m[4]*src.m[3])
+        SET dst.m[5] TO (tmp.m[0]*src.m[0] + tmp.m[7]*src.m[2] + tmp.m[8]*src.m[3]) - (tmp.m[1]*src.m[0] + tmp.m[6]*src.m[2] + tmp.m[9]*src.m[3])
+        SET dst.m[6] TO (tmp.m[3]*src.m[0] + tmp.m[6]*src.m[1] + tmp.m[11]*src.m[3]) - (tmp.m[2]*src.m[0] + tmp.m[7]*src.m[1] + tmp.m[10]*src.m[3])
+        SET dst.m[7] TO (tmp.m[4]*src.m[0] + tmp.m[9]*src.m[1] + tmp.m[10]*src.m[2]) - (tmp.m[5]*src.m[0] + tmp.m[8]*src.m[1] + tmp.m[11]*src.m[2])
+
+        SET tmp.m[0] TO src.m[2]*src.m[7]
+        SET tmp.m[1] TO src.m[3]*src.m[6]
+        SET tmp.m[2] TO src.m[1]*src.m[7]
+        SET tmp.m[3] TO src.m[3]*src.m[5]
+        SET tmp.m[4] TO src.m[1]*src.m[6]
+        SET tmp.m[5] TO src.m[2]*src.m[5]
+
+        SET tmp.m[6] TO src.m[0]*src.m[7]
+        SET tmp.m[7] TO src.m[3]*src.m[4]
+        SET tmp.m[8] TO src.m[0]*src.m[6]
+        SET tmp.m[9] TO src.m[2]*src.m[4]
+        SET tmp.m[10] TO src.m[0]*src.m[5]
+        SET tmp.m[11] TO src.m[1]*src.m[4]
+
+        SET dst.m[8] TO (tmp.m[0]*src.m[13] + tmp.m[3]*src.m[14] + tmp.m[4]*src.m[15]) - (tmp.m[1]*src.m[13] + tmp.m[2]*src.m[14] + tmp.m[5]*src.m[15])
+        SET dst.m[9] TO (tmp.m[1]*src.m[12] + tmp.m[6]*src.m[14] + tmp.m[9]*src.m[15]) - (tmp.m[0]*src.m[12] + tmp.m[7]*src.m[14] + tmp.m[8]*src.m[15])
+        SET dst.m[10] TO (tmp.m[2]*src.m[12] + tmp.m[7]*src.m[13] + tmp.m[10]*src.m[15]) - (tmp.m[3]*src.m[12] + tmp.m[6]*src.m[13] + tmp.m[11]*src.m[15])
+        SET dst.m[11] TO (tmp.m[5]*src.m[12] + tmp.m[8]*src.m[13] + tmp.m[11]*src.m[14]) - (tmp.m[4]*src.m[12] + tmp.m[9]*src.m[13] + tmp.m[10]*src.m[14])
+        SET dst.m[12] TO (tmp.m[2]*src.m[10] + tmp.m[5]*src.m[11] + tmp.m[1]*src.m[9]) - (tmp.m[4]*src.m[11] + tmp.m[0]*src.m[9] + tmp.m[3]*src.m[10])
+        SET dst.m[13] TO (tmp.m[8]*src.m[11] + tmp.m[0]*src.m[8] + tmp.m[7]*src.m[10]) - (tmp.m[6]*src.m[10] + tmp.m[9]*src.m[11] + tmp.m[1]*src.m[8])
+        SET dst.m[14] TO (tmp.m[6]*src.m[9] + tmp.m[11]*src.m[11] + tmp.m[3]*src.m[8]) - (tmp.m[10]*src.m[11] + tmp.m[2]*src.m[8] + tmp.m[7]*src.m[9])
+        SET dst.m[15] TO (tmp.m[10]*src.m[10] + tmp.m[4]*src.m[8] + tmp.m[9]*src.m[9]) - (tmp.m[8]*src.m[9] + tmp.m[11]*src.m[10] + tmp.m[5]*src.m[8])
+
+        SET det TO src.m[0]*dst.m[0] + src.m[1]*dst.m[1] + src.m[2]*dst.m[2] + src.m[3]*dst.m[3]
+
+        IF det EQUALS 0:
+            SET det TO 0
+            RETURN False
+        ELSE:
+            SET det TO 1/det
+
+        FOR i IN range(len(dst.m)):
+            SET self.m[i] TO dst.m[i] * det
+        RETURN True
+
+    DEFINE FUNCTION copy(self, mat):
+        FOR i IN range(len(self.m)):
+            SET self.m[i] TO mat.m[i]
+
+    DEFINE FUNCTION __mul__(self, mat):
+        SET result TO Matrix()
+        SET result.m[0] TO 0
+        SET result.m[5] TO 0
+        SET result.m[10] TO 0
+        SET result.m[15] TO 0
+
+        FOR i IN range(4):
+            FOR j IN range(4):
+                FOR c IN range(4):
+                    result.m[j*4+i] += self.m[j*4+c] * mat.m[c*4+i]
+        RETURN result
+
+## Menghitung Inverse Kinematics
+DEFINE FUNCTION compute_ik(x, y, z, a, b, c):
+    SET result TO [0,0,0,0,0,0]
+    SET Tad TO Matrix() 
+    SET Tda TO Matrix() 
+    SET Tcd TO Matrix() 
+    SET Tdc TO Matrix() 
+    SET Tac TO Matrix()
+
+    Tad.SetTransform(
+        [x, y, z - LEG_LENGTH],
+        [a, b, c])
+
+    SET X TO x + Tad.m[2] * ANKLE_LENGTH
+    SET Y TO y + Tad.m[6] * ANKLE_LENGTH
+    SET Z TO (z - LEG_LENGTH) + Tad.m[10] * ANKLE_LENGTH
+
+## Inverse Kinematics
+    # Get Knee
+    SET _Rac TO math.sqrt(X*X + Y*Y + Z*Z)
+    SET calc TO (_Rac * _Rac - THIGH_LENGTH * THIGH_LENGTH - CALF_LENGTH * CALF_LENGTH) / (2 * THIGH_LENGTH * CALF_LENGTH)
+    IF calc > 1.0: RETURN False
+    SET _Acos TO math.acos(
+        (_Rac * _Rac - THIGH_LENGTH * THIGH_LENGTH - CALF_LENGTH * CALF_LENGTH) /
+        (2 * THIGH_LENGTH * CALF_LENGTH))
+    SET result[3] TO _Acos
+   # Get Ankle Roll
+    Tda.copy(Tad)
+    IF (Tda.Inverse() EQUALS False) :
+
+        RETURN False
+    SET _k TO math.sqrt(Tda.m[7] * Tda.m[7] + Tda.m[11] * Tda.m[11])
+    SET _l TO math.sqrt(Tda.m[7] * Tda.m[7] + (Tda.m[11] - ANKLE_LENGTH) * (Tda.m[11] - ANKLE_LENGTH))
+    SET _m TO (_k * _k - _l * _l - ANKLE_LENGTH * ANKLE_LENGTH) / (2 * _l * ANKLE_LENGTH)
+    IF (_m > 1.0):
+        SET _m TO 1.0
+    ELSEIF (_m < -1.0):
+        SET _m TO -1.0
+
+    SET _Acos TO math.acos(_m)
+    IF (math.isnan(_Acos) EQUALS True):
+        RETURN False
+    IF (Tda.m[7] < 0.0):
+        SET result[5] TO -_Acos
+    ELSE:
+        SET result[5] TO _Acos
+    # Get Hip Yaw
+    Tcd.SetTransform(
+        [0, 0, -ANKLE_LENGTH],
+        [result[5] * 180.0 / math.pi, 0, 0])
+    Tdc.copy(Tcd)
+
+    IF (Tdc.Inverse() EQUALS False):
+        RETURN False
+
+    SET Tac TO Tad * Tdc
+    SET _Atan TO math.atan2(-Tac.m[1], Tac.m[5])
+    IF (math.isinf(_Atan) EQUALS 1):
+        RETURN False
+
+    SET result[0] TO _Atan
+    # Get Hip Roll
+    SET _Atan TO math.atan2(Tac.m[9], -Tac.m[1] * math.sin(result[0]) + Tac.m[5] * math.cos(result[0]))
+    IF (math.isinf(_Atan) EQUALS True):
+
+        RETURN False
+    SET result[1] TO _Atan
+    # Get Hip Pitch and Ankle Pitch
+    SET _Atan TO math.atan2(
+        Tac.m[2] * math.cos(result[0]) + Tac.m[6] * math.sin(result[0]), Tac.m[0] * math.cos(
+        result[0]) + Tac.m[4] * math.sin(result[0]))
+    IF (math.isinf(_Atan) EQUALS True):
+        RETURN False
+
+    SET _theta TO _Atan
+    SET _k TO math.sin(result[3]) * CALF_LENGTH
+    SET _l TO -THIGH_LENGTH - math.cos(result[3]) * CALF_LENGTH
+    SET _m TO math.cos(result[0]) * X + math.sin(result[0]) * Y
+    SET _n TO math.cos(result[1]) * Z + math.sin(result[0]) * math.sin(result[1]) * X - math.cos(result[0]) * math.sin(
+        result[1]) * Y
+    SET _s TO (_k * _n + _l * _m) / (_k * _k + _l * _l)
+    SET _c TO (_n - _k * _s) / _l
+    SET _Atan TO math.atan2(_s, _c)
+    IF (math.isinf(_Atan) EQUALS True):
+        RETURN False
+
+    SET result[2] TO _Atan
+    SET result[4] TO _theta - result[3] - result[2]
+    RETURN result
+
+## Raising foot kick ##
+SET points_set_1 TO np.array([[0, 4.5, 5.5], [0, 4.5, 7], [-8, 5.5, 7], [-12, 6.5, 9], [-12, 7.5, 13.5]])
+SET t_points TO np.arange(0, 1, 0.09)
+SET curve_set_1 TO Bezier.Curve(t_points, points_set_1)
+OUTPUT("Raising Path")
+
+FOR i IN range(len(curve_set_1)):
+    OUTPUT(compute_ik(curve_set_1[i][0], curve_set_1[i][1], curve_set_1[i][2], 0, 0, 0))

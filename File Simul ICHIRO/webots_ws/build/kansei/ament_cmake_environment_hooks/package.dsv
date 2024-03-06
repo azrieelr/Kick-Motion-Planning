@@ -1,0 +1,4 @@
+source;share/kansei/local_setup.bash
+source;share/kansei/local_setup.dsv
+source;share/kansei/local_setup.sh
+source;share/kansei/local_setup.zsh

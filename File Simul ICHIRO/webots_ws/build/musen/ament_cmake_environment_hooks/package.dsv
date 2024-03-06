@@ -1,0 +1,4 @@
+source;share/musen/local_setup.bash
+source;share/musen/local_setup.dsv
+source;share/musen/local_setup.sh
+source;share/musen/local_setup.zsh

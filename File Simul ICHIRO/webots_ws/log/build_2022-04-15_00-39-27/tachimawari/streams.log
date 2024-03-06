@@ -1,0 +1,106 @@
+[0.071s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/tachimawari -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari
+[0.428s] -- The C compiler identification is GNU 9.4.0
+[0.687s] -- The CXX compiler identification is GNU 9.4.0
+[0.702s] -- Check for working C compiler: /usr/bin/cc
+[1.266s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.275s] -- Detecting C compiler ABI info
+[1.733s] -- Detecting C compiler ABI info - done
+[1.862s] -- Detecting C compile features
+[1.872s] -- Detecting C compile features - done
+[1.901s] -- Check for working CXX compiler: /usr/bin/c++
+[2.652s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.658s] -- Detecting CXX compiler ABI info
+[3.166s] -- Detecting CXX compiler ABI info - done
+[3.195s] -- Detecting CXX compile features
+[3.197s] -- Detecting CXX compile features - done
+[3.202s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.638s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[4.656s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.973s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.565s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.629s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.640s] -- Looking for pthread.h
+[7.129s] -- Looking for pthread.h - found
+[7.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.514s] -- Looking for pthread_create in pthreads
+[7.815s] -- Looking for pthread_create in pthreads - not found
+[7.815s] -- Looking for pthread_create in pthread
+[8.419s] -- Looking for pthread_create in pthread - found
+[8.435s] -- Found Threads: TRUE  
+[9.593s] -- Found tachimawari_interfaces: 0.0.0 (/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/share/tachimawari_interfaces/cmake)
+[9.642s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.245s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.255s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.255s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/tachimawari/include>
+[10.256s] -- Configured cppcheck exclude dirs and/or files: 
+[10.270s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.271s] -- Configured cpplint exclude dirs and/or files: 
+[10.283s] -- Added test 'lint_cmake' to check CMake code style
+[10.311s] -- Added test 'uncrustify' to check C / C++ code style
+[10.312s] -- Configured uncrustify additional arguments: 
+[10.313s] -- Added test 'xmllint' to check XML markup files
+[10.349s] -- Configuring done
+[10.529s] -- Generating done
+[10.553s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari
+[10.611s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/tachimawari -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari
+[10.616s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari -- -j4 -l4
+[10.980s] [35m[1mScanning dependencies of target tachimawari[0m
+[11.230s] [ 11%] [32mBuilding CXX object CMakeFiles/tachimawari.dir/src/tachimawari/joint.cpp.o[0m
+[13.430s] [ 22%] [32mBuilding CXX object CMakeFiles/tachimawari.dir/src/tachimawari/motion_manager.cpp.o[0m
+[26.492s] [ 33%] [32m[1mLinking CXX shared library libtachimawari.so[0m
+[27.373s] [ 33%] Built target tachimawari
+[27.472s] [35m[1mScanning dependencies of target motion_manager[0m
+[27.856s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_manager_main.cpp.o[0m
+[37.343s] [ 55%] [32m[1mLinking CXX executable motion_manager[0m
+[38.074s] [ 55%] Built target motion_manager
+[38.104s] [35m[1mScanning dependencies of target check_joints[0m
+[38.218s] [ 66%] [32mBuilding CXX object CMakeFiles/check_joints.dir/src/check_joints_main.cpp.o[0m
+[40.876s] [ 77%] [32m[1mLinking CXX executable check_joints[0m
+[41.205s] [ 77%] Built target check_joints
+[41.248s] [35m[1mScanning dependencies of target move_joint[0m
+[41.292s] [ 88%] [32mBuilding CXX object CMakeFiles/move_joint.dir/src/move_joint_main.cpp.o[0m
+[42.929s] [100%] [32m[1mLinking CXX executable move_joint[0m
+[43.500s] [100%] Built target move_joint
+[43.566s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari -- -j4 -l4
+[43.943s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari
+[43.971s] -- Install configuration: ""
+[43.973s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/./include
+[43.975s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/./include/tachimawari
+[43.976s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/./include/tachimawari/joint.hpp
+[43.978s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/./include/tachimawari/motion_manager.hpp
+[43.984s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/libtachimawari.so
+[44.008s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/libtachimawari.so" to ""
+[44.011s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/check_joints
+[44.013s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/check_joints" to ""
+[44.014s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/move_joint
+[44.016s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/move_joint" to ""
+[44.018s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/motion_manager
+[44.023s] -- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib/tachimawari/motion_manager" to ""
+[44.027s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/library_path.sh
+[44.029s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/library_path.dsv
+[44.031s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/ament_index/resource_index/package_run_dependencies/tachimawari
+[44.032s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/ament_index/resource_index/parent_prefix_path/tachimawari
+[44.034s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/ament_prefix_path.sh
+[44.035s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/ament_prefix_path.dsv
+[44.037s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/path.sh
+[44.039s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/environment/path.dsv
+[44.041s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/local_setup.bash
+[44.043s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/local_setup.sh
+[44.046s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/local_setup.zsh
+[44.048s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/local_setup.dsv
+[44.051s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/package.dsv
+[44.052s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/ament_index/resource_index/packages/tachimawari
+[44.055s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.059s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.061s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake/ament_cmake_export_libraries-extras.cmake
+[44.063s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake/tachimawariConfig.cmake
+[44.065s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/cmake/tachimawariConfig-version.cmake
+[44.066s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/share/tachimawari/package.xml
+[44.076s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari' returned '0': AMENT_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/tachimawari

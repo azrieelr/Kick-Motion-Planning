@@ -1,0 +1,105 @@
+IMPORT tensorflow as tf
+
+from tensorflow IMPORT keras
+
+from ann_visualizer.visualize IMPORT ann_viz;
+
+
+
+IMPORT pandas as pd
+
+IMPORT numpy as np
+
+IMPORT matplotlib.pyplot as plt
+
+
+
+SET train_df TO pd.read_csv('./data/train.csv')
+
+np.random.shuffle(train_df.values)
+
+
+
+#OUTPUT(train_df.head())
+
+
+
+SET model TO keras.Sequential([
+
+	keras.layers.Dense(32, INPUT_shape=(2,), activation='relu'),
+
+	keras.layers.Dense(32, activation='relu'),
+
+	keras.layers.Dense(2, activation='sigmoid')])
+
+
+
+#ann_viz(model, title="My first neural network")
+
+
+
+model.compile(optimizer='adam', 
+
+	          loss=keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+
+	          metrics=['accuracy'])
+
+
+
+SET x TO np.column_stack((train_df.x.values, train_df.y.values))
+
+
+
+SET history_train TO model.fit(x, train_df.color.values, batch_size=4, epochs=15)
+
+OUTPUT(history_train.history.keys())
+
+
+
+SET test_df TO pd.read_csv('./data/test.csv')
+
+SET test_x TO np.column_stack((test_df.x.values, test_df.y.values))
+
+
+
+OUTPUT("EVALUATION")
+
+SET history_test TO model.fit(test_x, test_df.color.values, batch_size=4, epochs=15)
+
+OUTPUT(history_test.history.keys())
+
+
+
+plt.figure(1)
+
+plt.plot(history_train.history['accuracy'])
+
+plt.plot(history_test.history['accuracy'])
+
+plt.title('model training')
+
+plt.ylabel('accuracy')
+
+plt.xlabel('epoch')
+
+plt.legend(['train', 'test'], loc='lower right')
+
+plt.show()
+
+
+
+plt.figure(2)
+
+plt.plot(history_train.history['loss'])
+
+plt.plot(history_test.history['loss'])
+
+plt.title('model training')
+
+plt.ylabel('loss')
+
+plt.xlabel('epoch')
+
+plt.legend(['train', 'test'], loc='upper right')
+
+plt.show()

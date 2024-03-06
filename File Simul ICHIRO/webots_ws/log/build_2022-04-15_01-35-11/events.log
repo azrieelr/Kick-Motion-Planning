@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'aruku'}
+[0.000595] (-) JobUnselected: {'identifier': 'framework_common'}
+[0.000791] (-) JobUnselected: {'identifier': 'framework_math'}
+[0.001157] (-) JobUnselected: {'identifier': 'kansei'}
+[0.001479] (-) JobUnselected: {'identifier': 'kansei_interfaces'}
+[0.001941] (-) JobUnselected: {'identifier': 'keisan'}
+[0.002090] (-) JobUnselected: {'identifier': 'musen'}
+[0.002205] (-) JobUnselected: {'identifier': 'robocup_client'}
+[0.002970] (-) JobUnselected: {'identifier': 'tachimawari'}
+[0.003331] (-) JobUnselected: {'identifier': 'tachimawari_interfaces'}
+[0.003478] (akushon) JobQueued: {'identifier': 'akushon', 'dependencies': OrderedDict([('keisan', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan'), ('musen', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen'), ('tachimawari_interfaces', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces'), ('robocup_client', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client'), ('tachimawari', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari')])}
+[0.003628] (akushon) JobStarted: {'identifier': 'akushon'}
+[0.054876] (akushon) JobProgress: {'identifier': 'akushon', 'progress': 'cmake'}
+[0.057978] (akushon) JobProgress: {'identifier': 'akushon', 'progress': 'build'}
+[0.060567] (akushon) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon', '--', '-j4', '-l4'], 'cwd': '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azriel19'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1375'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azriel19'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1172'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a235199ce69d61d581f2d136258624f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azriel19'), ('JOURNAL_STREAM', '8:37484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azriel19'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azriel19/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azriel19:@/tmp/.ICE-unix/1413,unix/azriel19:/tmp/.ICE-unix/1413'), ('INVOCATION_ID', '1698dd9d44304a4097ea15cab2508df7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7992872e_8708_418a_92cc_3b1603fd44d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('GAME_CONTROLLER_HOME', '/home/azriel19/webots/GameController'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/path/to/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a235199ce69d61d581f2d136258624f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('WEBOTS_HOME_PATH', '/usr/local/webots'), ('PYTHONPATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common:/opt/ros/foxy')]), 'shell': False}
+[0.099560] (-) TimerEvent: {}
+[0.200250] (-) TimerEvent: {}
+[0.228105] (akushon) StdoutLine: {'line': b'[ 66%] Built target akushon\n'}
+[0.300493] (-) TimerEvent: {}
+[0.302205] (akushon) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/action_manager.dir/src/action_manager_main.cpp.o\x1b[0m\n'}
+[0.400560] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601435] (-) TimerEvent: {}
+[0.702674] (-) TimerEvent: {}
+[0.803300] (-) TimerEvent: {}
+[0.903813] (-) TimerEvent: {}
+[1.004989] (-) TimerEvent: {}
+[1.105788] (-) TimerEvent: {}
+[1.206713] (-) TimerEvent: {}
+[1.307123] (-) TimerEvent: {}
+[1.407646] (-) TimerEvent: {}
+[1.508293] (-) TimerEvent: {}
+[1.608965] (-) TimerEvent: {}
+[1.709392] (-) TimerEvent: {}
+[1.809834] (-) TimerEvent: {}
+[1.910322] (-) TimerEvent: {}
+[2.010745] (-) TimerEvent: {}
+[2.111181] (-) TimerEvent: {}
+[2.211719] (-) TimerEvent: {}
+[2.312396] (-) TimerEvent: {}
+[2.412804] (-) TimerEvent: {}
+[2.513313] (-) TimerEvent: {}
+[2.613709] (-) TimerEvent: {}
+[2.714105] (-) TimerEvent: {}
+[2.814574] (-) TimerEvent: {}
+[2.915129] (-) TimerEvent: {}
+[3.016163] (-) TimerEvent: {}
+[3.116646] (-) TimerEvent: {}
+[3.217524] (-) TimerEvent: {}
+[3.318098] (-) TimerEvent: {}
+[3.418785] (-) TimerEvent: {}
+[3.519386] (-) TimerEvent: {}
+[3.619982] (-) TimerEvent: {}
+[3.720408] (-) TimerEvent: {}
+[3.820855] (-) TimerEvent: {}
+[3.921328] (-) TimerEvent: {}
+[4.021903] (-) TimerEvent: {}
+[4.122597] (-) TimerEvent: {}
+[4.222984] (-) TimerEvent: {}
+[4.323500] (-) TimerEvent: {}
+[4.424263] (-) TimerEvent: {}
+[4.524722] (-) TimerEvent: {}
+[4.625370] (-) TimerEvent: {}
+[4.726328] (-) TimerEvent: {}
+[4.826742] (-) TimerEvent: {}
+[4.927106] (-) TimerEvent: {}
+[5.027580] (-) TimerEvent: {}
+[5.128073] (-) TimerEvent: {}
+[5.228438] (-) TimerEvent: {}
+[5.328888] (-) TimerEvent: {}
+[5.429320] (-) TimerEvent: {}
+[5.529788] (-) TimerEvent: {}
+[5.630444] (-) TimerEvent: {}
+[5.730864] (-) TimerEvent: {}
+[5.831666] (-) TimerEvent: {}
+[5.932056] (-) TimerEvent: {}
+[6.032452] (-) TimerEvent: {}
+[6.132896] (-) TimerEvent: {}
+[6.233442] (-) TimerEvent: {}
+[6.333900] (-) TimerEvent: {}
+[6.434280] (-) TimerEvent: {}
+[6.534657] (-) TimerEvent: {}
+[6.635161] (-) TimerEvent: {}
+[6.736675] (-) TimerEvent: {}
+[6.837119] (-) TimerEvent: {}
+[6.937548] (-) TimerEvent: {}
+[7.038004] (-) TimerEvent: {}
+[7.138729] (-) TimerEvent: {}
+[7.239143] (-) TimerEvent: {}
+[7.339725] (-) TimerEvent: {}
+[7.440112] (-) TimerEvent: {}
+[7.540490] (-) TimerEvent: {}
+[7.640933] (-) TimerEvent: {}
+[7.741436] (-) TimerEvent: {}
+[7.842100] (-) TimerEvent: {}
+[7.942983] (-) TimerEvent: {}
+[8.043517] (-) TimerEvent: {}
+[8.143990] (-) TimerEvent: {}
+[8.244518] (-) TimerEvent: {}
+[8.345481] (-) TimerEvent: {}
+[8.445908] (-) TimerEvent: {}
+[8.546364] (-) TimerEvent: {}
+[8.646824] (-) TimerEvent: {}
+[8.747248] (-) TimerEvent: {}
+[8.847776] (-) TimerEvent: {}
+[8.949326] (-) TimerEvent: {}
+[8.967351] (akushon) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_manager\x1b[0m\n'}
+[9.049801] (-) TimerEvent: {}
+[9.150225] (-) TimerEvent: {}
+[9.250656] (-) TimerEvent: {}
+[9.351090] (-) TimerEvent: {}
+[9.451745] (-) TimerEvent: {}
+[9.466948] (akushon) StdoutLine: {'line': b'[100%] Built target action_manager\n'}
+[9.491309] (akushon) CommandEnded: {'returncode': 0}
+[9.551933] (-) TimerEvent: {}
+[9.576360] (akushon) JobProgress: {'identifier': 'akushon', 'progress': 'install'}
+[9.607969] (akushon) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon'], 'cwd': '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azriel19'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1375'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math/lib:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azriel19'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1172'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a235199ce69d61d581f2d136258624f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azriel19'), ('JOURNAL_STREAM', '8:37484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azriel19'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azriel19/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azriel19:@/tmp/.ICE-unix/1413,unix/azriel19:/tmp/.ICE-unix/1413'), ('INVOCATION_ID', '1698dd9d44304a4097ea15cab2508df7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7992872e_8708_418a_92cc_3b1603fd44d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('GAME_CONTROLLER_HOME', '/home/azriel19/webots/GameController'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/path/to/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/akushon'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a235199ce69d61d581f2d136258624f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('WEBOTS_HOME_PATH', '/usr/local/webots'), ('PYTHONPATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces/lib/python3.8/site-packages:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/robocup_client:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/tachimawari_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/musen:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/keisan:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/aruku:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/kansei_interfaces:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_math:/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common:/opt/ros/foxy')]), 'shell': False}
+[9.630895] (akushon) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.631507] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include\n'}
+[9.632671] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon\n'}
+[9.633121] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/action.hpp\n'}
+[9.633723] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/pose.hpp\n'}
+[9.634042] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/./include/akushon/action_manager.hpp\n'}
+[9.635514] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/libakushon.so\n'}
+[9.636497] (akushon) StdoutLine: {'line': b'-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/akushon/action_manager\n'}
+[9.641759] (akushon) StdoutLine: {'line': b'-- Set runtime path of "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/lib/akushon/action_manager" to ""\n'}
+[9.642318] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/library_path.sh\n'}
+[9.643225] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/library_path.dsv\n'}
+[9.643622] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/package_run_dependencies/akushon\n'}
+[9.643888] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/parent_prefix_path/akushon\n'}
+[9.644141] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/ament_prefix_path.sh\n'}
+[9.644367] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/ament_prefix_path.dsv\n'}
+[9.644599] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/path.sh\n'}
+[9.644815] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/environment/path.dsv\n'}
+[9.645030] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.bash\n'}
+[9.645230] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.sh\n'}
+[9.645483] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.zsh\n'}
+[9.645681] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/local_setup.dsv\n'}
+[9.645891] (akushon) StdoutLine: {'line': b'-- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/package.dsv\n'}
+[9.650358] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/ament_index/resource_index/packages/akushon\n'}
+[9.652663] (-) TimerEvent: {}
+[9.658404] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.658949] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.659827] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.660274] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/akushonConfig.cmake\n'}
+[9.661366] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/cmake/akushonConfig-version.cmake\n'}
+[9.661718] (akushon) StdoutLine: {'line': b'-- Up-to-date: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/akushon/share/akushon/package.xml\n'}
+[9.662124] (akushon) CommandEnded: {'returncode': 0}
+[9.752865] (-) TimerEvent: {}
+[9.792178] (akushon) JobEnded: {'identifier': 'akushon', 'rc': 0}
+[9.793642] (-) EventReactorShutdown: {}

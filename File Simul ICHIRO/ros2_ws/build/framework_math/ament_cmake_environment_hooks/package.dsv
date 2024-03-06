@@ -1,0 +1,4 @@
+source;share/framework_math/local_setup.bash
+source;share/framework_math/local_setup.dsv
+source;share/framework_math/local_setup.sh
+source;share/framework_math/local_setup.zsh

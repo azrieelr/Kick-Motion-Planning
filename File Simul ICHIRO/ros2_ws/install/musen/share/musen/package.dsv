@@ -1,0 +1,11 @@
+source;share/musen/hook/cmake_prefix_path.ps1
+source;share/musen/hook/cmake_prefix_path.dsv
+source;share/musen/hook/cmake_prefix_path.sh
+source;share/musen/hook/ld_library_path_lib.ps1
+source;share/musen/hook/ld_library_path_lib.dsv
+source;share/musen/hook/ld_library_path_lib.sh
+source;share/musen/local_setup.bash
+source;share/musen/local_setup.dsv
+source;share/musen/local_setup.ps1
+source;share/musen/local_setup.sh
+source;share/musen/local_setup.zsh

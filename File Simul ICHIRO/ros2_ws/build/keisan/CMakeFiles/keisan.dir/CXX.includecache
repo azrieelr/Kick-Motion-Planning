@@ -1,0 +1,150 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle.hpp
+keisan/angle/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/angle/angle.hpp
+keisan/angle/euler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/angle/euler.hpp
+keisan/angle/quaternion.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/angle/quaternion.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/angle.hpp
+iostream
+-
+keisan/angle/angle.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/angle.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/angle.impl.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/constant.hpp
+keisan/number.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/number.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/euler.hpp
+iostream
+-
+keisan/angle/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/angle.hpp
+keisan/angle/euler.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/euler.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/euler.impl.hpp
+keisan/angle/quaternion.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/quaternion.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/constant.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/quaternion.hpp
+iostream
+-
+keisan/angle/quaternion.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/quaternion.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/quaternion.impl.hpp
+keisan/angle/euler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/angle/euler.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/angle/keisan/constant.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/constant.hpp
+cmath
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/point_2.hpp
+ostream
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/keisan/angle.hpp
+keisan/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/keisan/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/point_3.hpp
+ostream
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/keisan/angle.hpp
+keisan/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/geometry/keisan/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix.hpp
+keisan/matrix/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/matrix/matrix.hpp
+keisan/matrix/vector.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/matrix/vector.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/matrix.hpp
+ostream
+-
+keisan/matrix/matrix.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/keisan/matrix/matrix.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/matrix.impl.hpp
+algorithm
+-
+ostream
+-
+gtest/gtest.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/gtest/gtest.h
+keisan/matrix/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/keisan/matrix/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/vector.hpp
+ostream
+-
+keisan/matrix/vector.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/keisan/matrix/vector.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/vector.impl.hpp
+algorithm
+-
+ostream
+-
+keisan/matrix/vector.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/matrix/keisan/matrix/vector.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/number.hpp
+type_traits
+-
+keisan/number.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/number.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/number.impl.hpp
+algorithm
+-
+cmath
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/angle.hpp
+keisan/number.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include/keisan/keisan/number.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/angle/angle.cpp
+keisan/angle/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/angle/keisan/angle/angle.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/constant.cpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/keisan/constant.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/point_2.cpp
+cmath
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/keisan/angle.hpp
+keisan/geometry/point_2.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/keisan/geometry/point_2.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/point_3.cpp
+cmath
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/keisan/angle.hpp
+keisan/geometry/point_3.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/src/geometry/keisan/geometry/point_3.hpp
+

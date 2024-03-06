@@ -1,0 +1,88 @@
+[0.013s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common
+[0.119s] -- The C compiler identification is GNU 9.4.0
+[0.265s] -- The CXX compiler identification is GNU 9.4.0
+[0.273s] -- Check for working C compiler: /usr/bin/cc
+[0.445s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.447s] -- Detecting C compiler ABI info
+[0.608s] -- Detecting C compiler ABI info - done
+[0.612s] -- Detecting C compile features
+[0.612s] -- Detecting C compile features - done
+[0.620s] -- Check for working CXX compiler: /usr/bin/c++
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.820s] -- Detecting CXX compiler ABI info
+[0.980s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[1.000s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.065s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.718s] -- Configuring done
+[1.741s] -- Generating done
+[1.742s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common
+[1.750s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common
+[1.751s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common -- -j4 -l4
+[1.900s] [35m[1mScanning dependencies of target framework_common[0m
+[1.955s] [  9%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/algebra.cpp.o[0m
+[2.187s] [ 18%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/cli.cpp.o[0m
+[2.851s] [ 27%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/config.cpp.o[0m
+[3.767s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/config.cpp:1[m[K:
+[3.768s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::parse(const YAML::Node&)[m[K’:
+[3.768s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:29:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.768s]    29 |     virtual void parse([01;35m[Kconst YAML::Node &node[m[K) { }
+[3.768s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.768s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::emit(YAML::Emitter&)[m[K’:
+[3.768s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:30:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kemitter[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.768s]    30 |     virtual void emit([01;35m[KYAML::Emitter &emitter[m[K) { }
+[3.769s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.683s] [ 36%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/duration.cpp.o[0m
+[4.733s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/duration.cpp:1[m[K:
+[4.733s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/duration.h:[m[K In member function ‘[01m[Kdouble Duration::getSeconds(timespec)[m[K’:
+[4.733s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/duration.h:12:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.733s]    12 |     double getSeconds([01;35m[Kstruct timespec t[m[K) { return (double)time_.tv_sec + ((double)time_.tv_nsec / 1000000000); }
+[4.733s]       |                       [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[4.768s] [ 45%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/linux.cpp.o[0m
+[5.607s] [ 54%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/pid_control.cpp.o[0m
+[5.700s] [ 63%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/vector2.cpp.o[0m
+[5.795s] [ 72%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/vector3.cpp.o[0m
+[7.833s] [ 81%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/binary.cpp.o[0m
+[8.272s] [ 90%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/behavior.cpp.o[0m
+[8.416s] [100%] [32m[1mLinking CXX shared library libframework_common.so[0m
+[8.776s] [100%] Built target framework_common
+[8.834s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common -- -j4 -l4
+[8.921s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common
+[8.936s] -- Install configuration: ""
+[8.937s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include
+[8.937s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common
+[8.938s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/vector2.h
+[8.938s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/cli.h
+[8.938s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/pid_control.h
+[8.939s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/behavior.h
+[8.939s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/binary.h
+[8.940s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/config.h
+[8.940s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/algebra.h
+[8.940s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/vector3.h
+[8.941s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/linux.h
+[8.941s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common/duration.h
+[8.942s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/./include/common.h
+[8.942s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/lib/libframework_common.so
+[8.944s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/library_path.sh
+[8.944s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/library_path.dsv
+[8.945s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/ament_index/resource_index/package_run_dependencies/framework_common
+[8.945s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/ament_index/resource_index/parent_prefix_path/framework_common
+[8.946s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/ament_prefix_path.sh
+[8.946s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/ament_prefix_path.dsv
+[8.947s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/path.sh
+[8.947s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/environment/path.dsv
+[8.948s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/local_setup.bash
+[8.948s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/local_setup.sh
+[8.949s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/local_setup.zsh
+[8.949s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/local_setup.dsv
+[8.950s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/package.dsv
+[8.951s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/ament_index/resource_index/packages/framework_common
+[8.951s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.952s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.952s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_libraries-extras.cmake
+[8.953s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/cmake/framework_commonConfig.cmake
+[8.953s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/cmake/framework_commonConfig-version.cmake
+[8.954s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/framework_common/share/framework_common/package.xml
+[8.961s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/framework_common

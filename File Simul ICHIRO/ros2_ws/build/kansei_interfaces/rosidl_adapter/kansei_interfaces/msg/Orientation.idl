@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kansei_interfaces/msg/Orientation.msg
+// generated code does not contain a copyright notice
+
+
+module kansei_interfaces {
+  module msg {
+    typedef float float__3[3];
+    struct Orientation {
+      float__3 orientation;
+    };
+  };
+};

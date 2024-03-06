@@ -1,0 +1,4 @@
+source;share/aruku/local_setup.bash
+source;share/aruku/local_setup.dsv
+source;share/aruku/local_setup.sh
+source;share/aruku/local_setup.zsh

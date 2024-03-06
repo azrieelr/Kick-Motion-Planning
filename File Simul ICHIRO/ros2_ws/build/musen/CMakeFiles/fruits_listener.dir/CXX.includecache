@@ -1,0 +1,110 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/examples/fruits_udp/fruits_listener.cpp
+musen/musen.hpp
+-
+unistd.h
+-
+iostream
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/musen.hpp
+./socket/base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/base_socket.hpp
+./socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/tcp_socket.hpp
+./socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/udp_socket.hpp
+./tcp/client.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/tcp/client.hpp
+./tcp/server.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/tcp/server.hpp
+./udp/broadcaster.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/udp/broadcaster.hpp
+./udp/listener.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/udp/listener.hpp
+./sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/sender.hpp
+./receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/receiver.hpp
+optional
+-
+string
+-
+utility
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/sender.hpp
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/tcp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/udp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/tcp/client.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/tcp/server.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/udp/broadcaster.hpp
+arpa/inet.h
+-
+list
+-
+memory
+-
+string
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/udp_socket.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/udp/listener.hpp
+memory
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/socket/udp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/musen/include/musen/receiver.hpp
+

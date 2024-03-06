@@ -1,0 +1,384 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/robocup_client/messages.pb.cc
+messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/robocup_client/messages.pb.h
+algorithm
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/stubs/port.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/wire_format_lite_inl.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/generated_message_reflection.h
+-
+google/protobuf/reflection_ops.h
+-
+google/protobuf/wire_format.h
+-
+third_party/protobuf/version.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/robocup_client/third_party/protobuf/version.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/robocup_client/messages.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/inlined_string_field.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/generated_enum_reflection.h
+-
+google/protobuf/unknown_field_set.h
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle.hpp
+keisan/angle/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/angle/angle.hpp
+keisan/angle/euler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/angle/euler.hpp
+keisan/angle/quaternion.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/angle/quaternion.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/angle.hpp
+iostream
+-
+keisan/angle/angle.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/angle.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/angle.impl.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/constant.hpp
+keisan/number.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/number.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/euler.hpp
+iostream
+-
+keisan/angle/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/angle.hpp
+keisan/angle/euler.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/euler.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/euler.impl.hpp
+keisan/angle/quaternion.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/quaternion.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/constant.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/quaternion.hpp
+iostream
+-
+keisan/angle/quaternion.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/quaternion.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/quaternion.impl.hpp
+keisan/angle/euler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/angle/euler.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/angle/keisan/constant.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/constant.hpp
+cmath
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/point_2.hpp
+ostream
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/keisan/angle.hpp
+keisan/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/keisan/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/point_3.hpp
+ostream
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/keisan/angle.hpp
+keisan/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/geometry/keisan/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan.hpp
+keisan/geometry/point_2.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/geometry/point_2.hpp
+keisan/geometry/point_3.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/geometry/point_3.hpp
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/angle.hpp
+keisan/constant.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/constant.hpp
+keisan/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/matrix.hpp
+keisan/number.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/number.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix.hpp
+keisan/matrix/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/matrix/matrix.hpp
+keisan/matrix/vector.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/matrix/vector.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/matrix.hpp
+ostream
+-
+keisan/matrix/matrix.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/keisan/matrix/matrix.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/matrix.impl.hpp
+algorithm
+-
+ostream
+-
+gtest/gtest.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/gtest/gtest.h
+keisan/matrix/matrix.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/keisan/matrix/matrix.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/vector.hpp
+ostream
+-
+keisan/matrix/vector.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/keisan/matrix/vector.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/vector.impl.hpp
+algorithm
+-
+ostream
+-
+keisan/matrix/vector.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/matrix/keisan/matrix/vector.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/number.hpp
+type_traits
+-
+keisan/number.impl.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/number.impl.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/number.impl.hpp
+algorithm
+-
+cmath
+-
+keisan/angle.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/angle.hpp
+keisan/number.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/include/keisan/keisan/number.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/musen.hpp
+./socket/base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+./socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+./socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+./tcp/client.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/client.hpp
+./tcp/server.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/server.hpp
+./udp/broadcaster.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/broadcaster.hpp
+./udp/listener.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/listener.hpp
+./sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+./receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+optional
+-
+string
+-
+utility
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+string
+-
+vector
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+./base_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/base_socket.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/client.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/tcp/server.hpp
+memory
+-
+string
+-
+../socket/tcp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/tcp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/broadcaster.hpp
+arpa/inet.h
+-
+list
+-
+memory
+-
+string
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+../sender.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/sender.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/udp/listener.hpp
+memory
+-
+../socket/udp_socket.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/socket/udp_socket.hpp
+../receiver.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/musen/include/musen/receiver.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/examples/client.cpp
+robocup_client/robocup_client.hpp
+-
+google/protobuf/io/zero_copy_stream_impl.h
+-
+google/protobuf/text_format.h
+-
+unistd.h
+-
+fstream
+-
+iostream
+-
+string
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/message_handler.hpp
+memory
+-
+string
+-
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robocup_client.hpp
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+./robot_client.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robot_client.hpp
+./message_handler.hpp
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/message_handler.hpp
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/robot_client.hpp
+musen/musen.hpp
+-
+string
+-
+memory
+-
+./messages.pb.h
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/include/robocup_client/messages.pb.h
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/src/robocup_client/message_handler.cpp
+keisan/keisan.hpp
+-
+robocup_client/robocup_client.hpp
+-
+memory
+-
+string
+-
+iostream
+-
+
+/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/robocup_client/src/robocup_client/robot_client.cpp
+robocup_client/robot_client.hpp
+-
+google/protobuf/io/zero_copy_stream_impl.h
+-
+google/protobuf/text_format.h
+-
+memory
+-
+string
+-
+vector
+-
+
+messages.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/inlined_string_field.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/generated_enum_reflection.h
+-
+google/protobuf/unknown_field_set.h
+-
+

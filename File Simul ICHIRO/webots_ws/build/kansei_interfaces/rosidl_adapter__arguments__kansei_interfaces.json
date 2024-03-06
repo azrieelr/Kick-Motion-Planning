@@ -1,0 +1,8 @@
+{
+  "package_name": "kansei_interfaces",
+  "non_idl_tuples": [
+    "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/kansei_interfaces:msg/Fallen.msg",
+    "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/kansei_interfaces:msg/Orientation.msg",
+    "/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/kansei_interfaces:msg/Unit.msg"
+  ]
+}

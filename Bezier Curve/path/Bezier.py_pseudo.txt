@@ -1,0 +1,155 @@
+Membuat kurva Bezier sebagai master
+
+IMPORT numpy as np
+
+SET __all__ TO ["Bezier"]
+
+DEFINE CLASS Bezier():
+
+    DEFINE FUNCTION TwoPoints(t, P1, P2):
+
+        """
+        Returns a point between P1 and P2, parametised by t.
+        INPUTS:
+
+            t     float/int; a parameterisation.
+
+            P1    numpy array; a point.
+
+            P2    numpy array; a point.
+
+        OUTPUTS:
+
+            Q1    numpy array; a point.
+
+        """
+
+        IF not isinstance(P1, np.ndarray) or not isinstance(P2, np.ndarray):
+
+            raise TypeError('Points must be an instance of the numpy.ndarray!')
+
+        IF not isinstance(t, (int, float)):
+
+            raise TypeError('Parameter t must be an int or float!')
+
+        SET Q1 TO (1 - t) * P1 + t * P2
+
+        RETURN Q1
+
+    DEFINE FUNCTION Points(t, points):
+
+        """
+
+        Returns a list of points interpolated by the Bezier process
+
+        INPUTS:
+
+            t            float/int; a parameterisation.
+
+            points       list of numpy arrays; points.
+
+        OUTPUTS:
+
+            newpoints    list of numpy arrays; points.
+
+        """
+
+        SET newpoints TO []
+
+        #OUTPUT("points =", points, "\n")
+
+        FOR i1 IN range(0, len(points) - 1):
+
+            #OUTPUT("i1 =", i1)
+
+            #OUTPUT("points[i1] =", points[i1])
+
+            newpoints += [Bezier.TwoPoints(t, points[i1], points[i1 + 1])]
+
+            #OUTPUT("newpoints  =", newpoints, "\n")
+
+        RETURN newpoints
+
+    DEFINE FUNCTION Point(t, points):
+
+        """
+
+        Returns a point interpolated by the Bezier process
+
+        INPUTS:
+
+            t            float/int; a parameterisation.
+
+            points       list of numpy arrays; points.
+
+        OUTPUTS:
+
+            newpoint     numpy array; a point.
+
+        """
+
+        SET newpoints TO points
+
+        SET #OUTPUT("newpoints TO ", newpoints)
+
+        WHILE len(newpoints) > 1:
+
+            SET newpoints TO Bezier.Points(t, newpoints)
+
+            SET #OUTPUT("newpoints IN loop TO ", newpoints)
+
+
+
+        SET #OUTPUT("newpoints TO ", newpoints)
+
+        SET #OUTPUT("newpoints[0] TO ", newpoints[0])
+
+        RETURN newpoints[0]
+
+    DEFINE FUNCTION Curve(t_values, points):
+
+        """
+
+        Returns a point interpolated by the Bezier process
+
+        INPUTS:
+
+            t_values     list of floats/ints; a parameterisation.
+
+            points       list of numpy arrays; points.
+
+        OUTPUTS:
+
+            curve        list of numpy arrays; points.
+
+        """
+
+        IF not hasattr(t_values, '__iter__'):
+
+            raise TypeError("`t_values` Must be an iterable of integers or floats, of length greater than 0 .")
+
+        IF len(t_values) < 1:
+
+            raise TypeError("`t_values` Must be an iterable of integers or floats, of length greater than 0 .")
+
+        IF not isinstance(t_values[0], (int, float)):
+
+            raise TypeError("`t_values` Must be an iterable of integers or floats, of length greater than 0 .")
+
+        SET curve TO np.array([[0.0] * len(points[0])])
+
+        FOR t IN t_values:
+
+            #OUTPUT("curve                  \n", curve)
+
+            #OUTPUT("Bezier.Point(t, points) \n", Bezier.Point(t, points))
+
+            SET curve TO np.append(curve, [Bezier.Point(t, points)], axis=0)
+
+            #OUTPUT("curve after            \n", curve, "\n--- --- --- --- --- --- ")
+
+        SET curve TO np.delete(curve, 0, 0)
+
+        #OUTPUT("curve final            \n", curve, "\n--- --- --- --- --- --- ")
+
+        RETURN curve

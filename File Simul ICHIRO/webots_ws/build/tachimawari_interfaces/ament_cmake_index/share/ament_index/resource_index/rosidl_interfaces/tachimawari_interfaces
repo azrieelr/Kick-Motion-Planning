@@ -1,0 +1,6 @@
+msg/Joint.idl
+msg/Joint.msg
+srv/SetJoints.idl
+srv/SetJoints.srv
+srv/SetJoints_Request.msg
+srv/SetJoints_Response.msg

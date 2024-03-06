@@ -1,0 +1,88 @@
+[0.058s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common
+[0.413s] -- The C compiler identification is GNU 9.4.0
+[0.717s] -- The CXX compiler identification is GNU 9.4.0
+[0.750s] -- Check for working C compiler: /usr/bin/cc
+[1.390s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.408s] -- Detecting C compiler ABI info
+[1.942s] -- Detecting C compiler ABI info - done
+[1.978s] -- Detecting C compile features
+[1.978s] -- Detecting C compile features - done
+[1.986s] -- Check for working CXX compiler: /usr/bin/c++
+[2.471s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.475s] -- Detecting CXX compiler ABI info
+[2.913s] -- Detecting CXX compiler ABI info - done
+[2.972s] -- Detecting CXX compile features
+[2.973s] -- Detecting CXX compile features - done
+[2.986s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.205s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.205s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.826s] -- Configuring done
+[4.855s] -- Generating done
+[4.861s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common
+[4.899s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common
+[4.902s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common -- -j4 -l4
+[5.188s] [35m[1mScanning dependencies of target framework_common[0m
+[5.288s] [  9%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/algebra.cpp.o[0m
+[5.886s] [ 18%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/cli.cpp.o[0m
+[7.462s] [ 27%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/config.cpp.o[0m
+[10.184s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/src/config.cpp:1[m[K:
+[10.185s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::parse(const YAML::Node&)[m[K’:
+[10.185s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/config.h:29:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.186s]    29 |     virtual void parse([01;35m[Kconst YAML::Node &node[m[K) { }
+[10.186s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.187s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::emit(YAML::Emitter&)[m[K’:
+[10.188s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/config.h:30:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kemitter[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.189s]    30 |     virtual void emit([01;35m[KYAML::Emitter &emitter[m[K) { }
+[10.189s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[12.767s] [ 36%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/duration.cpp.o[0m
+[12.798s] In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/src/duration.cpp:1[m[K:
+[12.799s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/duration.h:[m[K In member function ‘[01m[Kdouble Duration::getSeconds(timespec)[m[K’:
+[12.800s] [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/src/framework_common/include/common/duration.h:12:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.800s]    12 |     double getSeconds([01;35m[Kstruct timespec t[m[K) { return (double)time_.tv_sec + ((double)time_.tv_nsec / 1000000000); }
+[12.801s]       |                       [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[12.932s] [ 45%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/linux.cpp.o[0m
+[15.474s] [ 54%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/pid_control.cpp.o[0m
+[15.696s] [ 63%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/vector2.cpp.o[0m
+[15.937s] [ 72%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/vector3.cpp.o[0m
+[21.158s] [ 81%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/binary.cpp.o[0m
+[22.236s] [ 90%] [32mBuilding CXX object CMakeFiles/framework_common.dir/src/behavior.cpp.o[0m
+[22.583s] [100%] [32m[1mLinking CXX shared library libframework_common.so[0m
+[23.134s] [100%] Built target framework_common
+[23.222s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common -- -j4 -l4
+[23.744s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common
+[23.806s] -- Install configuration: ""
+[23.808s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include
+[23.810s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common
+[23.810s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/vector2.h
+[23.810s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/cli.h
+[23.811s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/pid_control.h
+[23.811s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/behavior.h
+[23.811s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/binary.h
+[23.812s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/config.h
+[23.812s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/algebra.h
+[23.812s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/vector3.h
+[23.812s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/linux.h
+[23.813s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common/duration.h
+[23.813s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/./include/common.h
+[23.813s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/lib/libframework_common.so
+[23.814s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/library_path.sh
+[23.814s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/library_path.dsv
+[23.814s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/ament_index/resource_index/package_run_dependencies/framework_common
+[23.832s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/ament_index/resource_index/parent_prefix_path/framework_common
+[23.834s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/ament_prefix_path.sh
+[23.834s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/ament_prefix_path.dsv
+[23.835s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/path.sh
+[23.836s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/environment/path.dsv
+[23.836s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/local_setup.bash
+[23.837s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/local_setup.sh
+[23.843s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/local_setup.zsh
+[23.844s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/local_setup.dsv
+[23.844s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/package.dsv
+[23.845s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/ament_index/resource_index/packages/framework_common
+[23.845s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.846s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.851s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/cmake/ament_cmake_export_libraries-extras.cmake
+[23.856s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/cmake/framework_commonConfig.cmake
+[23.856s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/cmake/framework_commonConfig-version.cmake
+[23.857s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/install/framework_common/share/framework_common/package.xml
+[23.863s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/webots_ws/build/framework_common

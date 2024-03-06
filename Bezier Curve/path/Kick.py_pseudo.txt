@@ -1,0 +1,53 @@
+from Bezier IMPORT Bezier
+IMPORT numpy as np
+from numpy IMPORT savetxt
+from numpy IMPORT array as a
+IMPORT matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d IMPORT Axes3D
+
+## Set Up Figure ##
+SET fig TO plt.figure(figsize=plt.figaspect(0.5))
+
+### Bezier Curve Raising Foot ###
+SET points_set_1 TO a([[0, 4.5, 5.5], [0, 4.5, 7], [-8, 5.5, 7], [-12, 6.5, 10], [-12, 7.5, 13.5]])
+SET t_points TO np.arange(0, 1, 0.09)
+SET curve_set_1 TO Bezier.Curve(t_points, points_set_1)
+
+## First Plot Figure ##
+SET ax TO fig.add_subplot(1, 3, 1, projection='3d')
+ax.plot(curve_set_1[:, 0], curve_set_1[:, 1], curve_set_1[:, 2])
+OUTPUT(curve_set_1)
+SET np.savetxt('RaisingFoot.csv', curve_set_1, fmt TO '%s', delimiter=",")  
+ax.set_title('Angkat Kaki Robot')
+ax.plot(points_set_1[:, 0], points_set_1[:, 1], points_set_1[:, 2], 'o:')
+
+### Bezier Curve Kick Forward ###
+SET points_set_1 TO a([[-12, 7.5, 13.5], [-8, 7.5, 6.5], [-1.34, 7.5, 5.45], [25, 7.5, 6.5]])
+SET t_points TO np.arange(0, 1, 0.09)
+SET curve_set_1 TO Bezier.Curve(t_points, points_set_1)
+
+## Second Plot Figure ##
+SET ax TO fig.add_subplot(1, 3, 2, projection='3d')
+ax.plot(curve_set_1[:, 0], curve_set_1[:, 1], curve_set_1[:, 2])
+OUTPUT(curve_set_1)
+SET np.savetxt('KickForward.csv', curve_set_1, fmt TO '%s', delimiter=",")   
+ax.set_title('Menendang Bola')
+ax.plot(points_set_1[:, 0], points_set_1[:, 1], points_set_1[:, 2], 'o:')
+
+### Bezier Curve Return Leg ###
+SET points_set_1 TO a([[20, 7.5, 6.5], [13.34, 6, 7.5], [20, 7.5, 8], [0, 4.5, 8.5], [0, 4.5, 2.5]])
+SET t_points TO np.arange(0, 1, 0.1)
+SET curve_set_1 TO Bezier.Curve(t_points, points_set_1)
+
+## Third Plot Figure ##
+SET ax TO fig.add_subplot(1, 3, 3, projection='3d')
+ax.plot(curve_set_1[:, 0], curve_set_1[:, 1], curve_set_1[:, 2])
+OUTPUT(curve_set_1)
+SET np.savetxt('ReturnLeg.csv', curve_set_1, fmt TO '%s', delimiter=",")   
+ax.set_title('Return Leg')
+ax.plot(points_set_1[:, 0], points_set_1[:, 1], points_set_1[:, 2], 'o:')
+
+plt.savefig('Bezier_Sampling.png')
+plt.show()
+
+help(Bezier)

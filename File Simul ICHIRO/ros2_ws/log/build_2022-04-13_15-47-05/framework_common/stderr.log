@@ -1,0 +1,14 @@
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/config.cpp:1[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::parse(const YAML::Node&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:29:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 |     virtual void parse([01;35m[Kconst YAML::Node &node[m[K) { }
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:[m[K In member function ‘[01m[Kvirtual void Config::ParamBase::emit(YAML::Emitter&)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/config.h:30:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kemitter[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 |     virtual void emit([01;35m[KYAML::Emitter &emitter[m[K) { }
+      |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/src/duration.cpp:1[m[K:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/duration.h:[m[K In member function ‘[01m[Kdouble Duration::getSeconds(timespec)[m[K’:
+[01m[K/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/framework_common/include/common/duration.h:12:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   12 |     double getSeconds([01;35m[Kstruct timespec t[m[K) { return (double)time_.tv_sec + ((double)time_.tv_nsec / 1000000000); }
+      |                       [01;35m[K~~~~~~~~~~~~~~~~^[m[K

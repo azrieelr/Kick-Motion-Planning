@@ -1,0 +1,118 @@
+[0.026s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.206s] -- The CXX compiler identification is GNU 9.4.0
+[0.213s] -- Check for working C compiler: /usr/bin/cc
+[0.352s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.356s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.480s] -- Detecting C compile features
+[0.480s] -- Detecting C compile features - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++
+[0.652s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.658s] -- Detecting CXX compiler ABI info
+[0.764s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Detecting CXX compile features
+[0.857s] -- Detecting CXX compile features - done
+[0.866s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.907s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.907s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.212s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.214s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.216s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.220s] -- Looking for pthread.h
+[1.338s] -- Looking for pthread.h - found
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.443s] -- Check if compiler accepts -pthread
+[1.594s] -- Check if compiler accepts -pthread - yes
+[1.595s] -- Found Threads: TRUE  
+[1.705s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.712s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.713s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan/include>
+[1.713s] -- Configured cppcheck exclude dirs and/or files: 
+[1.720s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.720s] -- Configured cpplint exclude dirs and/or files: 
+[1.723s] -- Added test 'lint_cmake' to check CMake code style
+[1.732s] -- Added test 'uncrustify' to check C / C++ code style
+[1.732s] -- Configured uncrustify additional arguments: 
+[1.733s] -- Added test 'xmllint' to check XML markup files
+[1.740s] -- Configuring done
+[1.755s] -- Generating done
+[1.762s] -- Build files have been written to: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan
+[1.766s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/src/keisan -DCMAKE_INSTALL_PREFIX=/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan
+[1.783s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan -- -j4 -l4
+[1.936s] [35m[1mScanning dependencies of target gtest[0m
+[1.937s] [35m[1mScanning dependencies of target keisan[0m
+[1.957s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.966s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.997s] [ 10%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/angle/angle.cpp.o[0m
+[2.020s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.039s] [ 21%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/geometry/point_2.cpp.o[0m
+[11.939s] [ 26%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/geometry/point_3.cpp.o[0m
+[14.358s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.708s] [ 31%] Built target gtest_main
+[14.744s] [ 36%] [32mBuilding CXX object CMakeFiles/keisan.dir/src/constant.cpp.o[0m
+[19.738s] [ 42%] [32m[1mLinking CXX shared library libkeisan.so[0m
+[20.090s] [ 42%] Built target keisan
+[23.328s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.483s] [ 47%] Built target gtest
+[23.526s] [35m[1mScanning dependencies of target keisan_tests[0m
+[23.614s] [ 52%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/angle_test.cpp.o[0m
+[26.546s] [ 57%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/geometry/point_2_test.cpp.o[0m
+[29.072s] [ 63%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/geometry/point_3_test.cpp.o[0m
+[31.519s] [ 68%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/matrix/matrix_test.cpp.o[0m
+[34.473s] [ 73%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/matrix/vector_test.cpp.o[0m
+[37.515s] [ 78%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/constant_test.cpp.o[0m
+[40.148s] [ 84%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/number_test.cpp.o[0m
+[43.118s] [ 89%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/quaternion_test.cpp.o[0m
+[45.074s] [ 94%] [32mBuilding CXX object CMakeFiles/keisan_tests.dir/test/angle/euler_test.cpp.o[0m
+[47.249s] [100%] [32m[1mLinking CXX executable keisan_tests[0m
+[47.494s] [100%] Built target keisan_tests
+[47.511s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan -- -j4 -l4
+[47.571s] Invoking command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan
+[47.583s] -- Install configuration: ""
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/number.impl.hpp
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/geometry
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/geometry/point_2.hpp
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/geometry/point_3.hpp
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix
+[47.584s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix/matrix.impl.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix/vector.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix/vector.impl.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix/matrix.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/keisan.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/quaternion.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/angle.impl.hpp
+[47.585s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/quaternion.impl.hpp
+[47.586s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/euler.impl.hpp
+[47.586s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/euler.hpp
+[47.586s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle/angle.hpp
+[47.590s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/constant.hpp
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/matrix.hpp
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/angle.hpp
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/./include/keisan/number.hpp
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/lib/libkeisan.so
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/library_path.sh
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/library_path.dsv
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/ament_index/resource_index/package_run_dependencies/keisan
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/ament_index/resource_index/parent_prefix_path/keisan
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/ament_prefix_path.sh
+[47.591s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/ament_prefix_path.dsv
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/path.sh
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/environment/path.dsv
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/local_setup.bash
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/local_setup.sh
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/local_setup.zsh
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/local_setup.dsv
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/package.dsv
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/ament_index/resource_index/packages/keisan
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.592s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.593s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake/ament_cmake_export_libraries-extras.cmake
+[47.594s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake/keisanConfig.cmake
+[47.594s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/cmake/keisanConfig-version.cmake
+[47.594s] -- Installing: /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/install/keisan/share/keisan/package.xml
+[47.597s] Invoked command in '/home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/azriel19/Documents/File TA/File Simul ICHIRO/ros2_ws/build/keisan
